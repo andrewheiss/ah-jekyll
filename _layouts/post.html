@@ -1,0 +1,36 @@
+---
+layout: base
+---
+<div class="row">
+	<div class="column grid_2">
+		<p>
+			<span class="date" title="{{ page.date | date_to_xmlschema }}">
+				<span class="day">{{ page.date | date: '%A' }}, </span>
+				<span class="month">{{ page.date | date: '%B' }}</span>
+				<span class="date">{{ page.date | date: '%d' }}, </span>
+				<span class="year">{{ page.date | date: '%Y' }}</span>
+			</span>
+		</p>
+		<p><a href="{{ post.url }}#disqus_thread">Comments</a></p>
+	</div>
+	<div class="column grid_7">
+		<div class="page-nav-top">
+			{% if page.previous %}
+			<span class="page-nav-item">
+				<a rel="prev" href="{{ page.previous.url }}" title="View {{ page.previous.title }}">&larr; View previous article</a>
+			</span>
+			{% endif %}
+			{% if page.next %}
+			<span class="page-nav-item">
+				<a rel="next" href="{{ page.next.url }}" title="View {{ page.next.title }}">View next article &rarr;</a>
+			</span>
+			{% endif %}
+		</div>
+
+		<div class="entry content">
+			<h2>{{ page.title }}</h2>
+			{{ content }}
+			<!-- <div id="comments"><div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/andrewheisscom/embed.js"></script><noscript><a href="http://disqus.com/forums/andrewheisscom/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></div> -->
+		</div>
+	</div>
+</div>
