@@ -1,0 +1,13 @@
+---
+layout: static
+title: Tags
+---
+
+{% for tag in @site.tags|keys|sort %}
+<h3 id="{{ tag }}">{{ tag }}</h3>
+<ul>
+	{% for post in @site.posts|tagged:tag|sort %}
+	<li>{{ post.date | date: '%b %e, %Y' }}: <a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
+{% endfor %}

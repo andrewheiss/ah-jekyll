@@ -1,0 +1,9 @@
+<p>
+	<span class="date" title="{{ p.date | date_to_xmlschema }}">
+		<span class="day">{{ p.date | date: '%A' }}, </span>
+		<span class="month">{{ p.date | date: '%B' }}</span>
+		<span class="date">{{ p.date | date: '%e' }}, </span>
+		<span class="year">{{ p.date | date: '%Y' }}</span>
+	</span>
+</p>
+<p><a href="{{ p.url }}#disqus_thread">Comments</a></p>

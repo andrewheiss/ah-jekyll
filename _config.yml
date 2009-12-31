@@ -1,8 +1,9 @@
 destination:    ./_site
-auto:           true
 lsi:            false
+auto:           true
 server:         true
 server_port:    4000
 pygments:       true
 markdown:       maruku
 permalink:      pretty
+extensions:     true

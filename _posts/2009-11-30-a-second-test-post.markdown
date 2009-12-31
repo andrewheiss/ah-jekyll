@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Second test post
+tags:
+- markdown
+- test
+- blah
+- bash
 ---
 
 Now I'm going to whip up some Markdown HTML:
