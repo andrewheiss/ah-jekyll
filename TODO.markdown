@@ -15,6 +15,4 @@
 
 # Jekyll #
 
-* Put Jamie's changes into my fork
-* Put pygments patch into my fork
 * Officially install my fork?
