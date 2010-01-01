@@ -234,6 +234,14 @@ pre {
 	padding: .8em .8em 0;
 }
 
+.highlight { 
+	background-color: #f8f8f8; 
+	border: 1px solid silver; 
+	padding-left: 5px; 
+	margin-bottom: 1.2em; 
+	overflow-x:auto; 
+}
+
 /* @group Forms */
 
 fieldset {

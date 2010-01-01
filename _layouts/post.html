@@ -12,16 +12,13 @@ layout: base
 			</span>
 		</p>
 		<p><a href="{{ post.url }}#disqus_thread">Comments</a></p>
-
-		{% comment %} TODO: This isn't working--hide "Tagged as:" on posts without tags {% endcomment %}
-		{% if page.tags %}
-			<p>Tagged as:
-				{% for tag in page.tags|sort %}
-				<a href="/tag#{{tag | downcase}}" class="tag">{{tag | downcase}}</a>
-				{% endfor %}
-			</p>
-		{% else %}
-			<p>No tags here.</p>
+		
+		{% if page.tags != empty %}
+		<p>Tagged as:
+			{% for tag in page.tags | sort %}
+			<a href="/tag#{{tag | downcase}}" class="tag">{{tag | downcase}}</a>
+			{% endfor %}
+		</p>
 		{% endif %}
 
 	</div>

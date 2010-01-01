@@ -3,8 +3,6 @@
 * blog.html
 	* metadata on the side with tags
 	* post excerpts
-* _/layouts/post.html
-	* hide tags when they don't exist
 * archive.html
 	* get working
 * tag.html
@@ -12,7 +10,9 @@
 	* style it
 * index.html
 	* make it
+* Overall
+	* Fix indentation in each include and layout, for nerdiness purposes
 
 # Jekyll #
 
-* Officially install my fork?
+* Officially install my fork to /usr/local/bin?
