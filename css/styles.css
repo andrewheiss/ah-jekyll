@@ -273,6 +273,10 @@ textarea {
 	text-align: left;
 }
 
+h1.title {
+	text-align: right;
+}
+
 #navbar {
 	list-style: none;
 	text-align: right;
@@ -288,12 +292,13 @@ textarea {
 
 .post-meta {
 	padding-top: .5em;
+	text-align: right;
 }
 
 .post-meta p {
 	font: normal .9em/1.4em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	color: #999999;
-	padding-bottom: .2em;
+	padding-bottom: 1em;
 }
 
 .footnotes {

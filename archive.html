@@ -3,15 +3,16 @@ layout: static
 title: Archives
 ---
 
+{% assign first = true %}
 {% for post in site.posts %}
-  {% unless post.next %}
-    <h3 id="{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</h3>
-  {% else %}
-    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-    {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-    {% if year != nyear %}
-      <tr><th>{{ post.date | date: '%Y' }}</th><th>&nbsp;</th></tr>
-    {% endif %}
-  {% endunless %}
-
+  {% if post|last_of_year? %}
+	{% if first != true %}
+ 	</ul>
+	{% endif %}
+    <h3>{{ post.date | date: '%Y' }}</h3>
+	<ul>
+  {% endif %}
+  		<li>{{ post.date | date: '%b %e' }}: {{ post.title }}</li>
+{% assign first = false %}
 {% endfor %}
+	</ul>

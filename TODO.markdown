@@ -4,7 +4,7 @@
 	* metadata on the side with tags
 	* post excerpts
 * archive.html
-	* get working
+	* style it
 * tag.html
 	* list of tags up along the top as an index
 	* style it
@@ -12,6 +12,7 @@
 	* make it
 * Overall
 	* Fix indentation in each include and layout, for nerdiness purposes
+	* meta description and tags
 
 # Jekyll #
 

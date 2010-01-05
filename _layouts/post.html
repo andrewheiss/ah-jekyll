@@ -5,27 +5,30 @@ layout: base
 	<div class="post-meta column grid_2">
 		<p>
 			<span class="date" title="{{ page.date | date_to_xmlschema }}">
-				<span class="day">{{ page.date | date: '%A' }}, </span>
-				<span class="month">{{ page.date | date: '%B' }}</span>
-				<span class="date">{{ page.date | date: '%e' }}, </span>
+				<span class="day">{{ page.date | date: '%A' }}</span><br />
+				<span class="month"> {{ page.date | date: '%B' }}</span>
+				<span class="date"> {{ page.date | date: '%e' }}</span><br />
 				<span class="year">{{ page.date | date: '%Y' }}</span>
 			</span>
 		</p>
-		<p><a href="{{ post.url }}#disqus_thread">Comments</a></p>
 		
 		{% if page.tags != empty %}
-		<p>Tagged as:
+		<p>Tagged as:<br />
 			{% for tag in page.tags | sort %}
 			<a href="/tag#{{tag | downcase}}" class="tag">{{tag | downcase}}</a>
 			{% endfor %}
 		</p>
 		{% endif %}
+		
+		<p><a href="{{ post.url }}#disqus_thread">Comments</a></p>
 
 	</div>
 	<div class="column grid_7">
 		<div class="entry content">
 			<h2>{{ page.title }}</h2>
+			<div id="page-content">
 			{{ content }}
+			</div>
 			<!-- <div id="comments"><div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/andrewheisscom/embed.js"></script><noscript><a href="http://disqus.com/forums/andrewheisscom/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></div> -->
 		</div>
 	</div>
