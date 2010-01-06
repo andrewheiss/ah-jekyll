@@ -2,7 +2,7 @@
 layout: base
 title: Home
 ---
-{% for p in site.posts limit:10 %}
+{% for p in site.posts %}
 <div class="row">
 	<div class="post-meta column grid_2">
 		{% include meta.html %}
@@ -14,7 +14,7 @@ title: Home
 					{{ p.title }}
 				</a>
 			</h2>
-			{{ p.excerpt }} <a href="{{ p.url }}">Read the rest &raquo;</a>
+			{{ p.excerpt }} <a href="{{ p.url }}">Read the rest&nbsp;&raquo;</a>
 		</div>
 	</div>
 </div>
