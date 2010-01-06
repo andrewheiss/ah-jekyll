@@ -13,6 +13,8 @@
 	* make it
 * Overall
 	* Fix indentation in each include and layout, for nerdiness purposes
+	* Blockquote css
+	* line-height in headings
 
 # Jekyll #
 
