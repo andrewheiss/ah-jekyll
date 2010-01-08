@@ -25,16 +25,16 @@ You can speed up the process of hunting for and inserting special characters by 
 
 I set up a list of text replacements in my copy of Typinator that automatically change certain combinations of characters into IJMES standard transliterated rules. Here's my list of text transformation rules (all with the prefix -ij, short for IJMES):
 
-* -ij' = ʿ
-* -ij\` = ʾ
-* -ija = ā
-* -ijd = ḍ
-* -ijh = ḥ
-* -iji = ī
-* -ijs = ṣ
-* -ijt = ṭ
-* -iju = ū
-* -ijz = ẓ
+* -ij' = &#x2BF;
+* -ij\` = &#x2BE;
+* -ija = &#x101;
+* -ijd = &#x1E0D;
+* -ijh = &#x1E25;
+* -iji = &#x12B;
+* -ijs = &#x1E63;
+* -ijt = &#x1E6D;
+* -iju = &#x16B;
+* -ijz = &#x1E93;
 
 Here's a (very) quick example of this in action:
 
