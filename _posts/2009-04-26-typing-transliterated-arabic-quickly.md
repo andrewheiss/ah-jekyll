@@ -26,7 +26,7 @@ You can speed up the process of hunting for and inserting special characters by 
 I set up a list of text replacements in my copy of Typinator that automatically change certain combinations of characters into IJMES standard transliterated rules. Here's my list of text transformation rules (all with the prefix -ij, short for IJMES):
 
 * -ij' = ʿ
-* -ij` = ʾ
+* -ij\` = ʾ
 * -ija = ā
 * -ijd = ḍ
 * -ijh = ḥ
