@@ -4,7 +4,25 @@ title: Home
 ---
 <div class="row">
 	<div class="column grid_9">
-		<h1>Welcome!</h1>
-		<p>I am {{ '1984-08-19' | years_from_date }} years old.</p>
+		<p id="frontbio">I'm Andrew. I am a {{ '1984-08-19' | years_from_date }} year old student and web designer/developer from Orem, Utah. I live in Egypt where I'm working on my MA in Middle East Studies at the American University in Cairo. I'm married and have two beautiful daughters. Life rocks.</p>
+	</div>
+</div>
+<div class="row">
+	<div class="column grid_6">
+		{% for p in site.categories.post limit:1 %}
+		<h2><a href="{{ p.url }}">Latest blog post</a></h2>
+		{{ p.content | truncatewords: 50 }} <a href="{{ p.url }}">Read the rest&nbsp;&raquo;</a>
+		{% endfor %}
+	</div>
+	<div class="column grid_3">
+		<h2><a href="http://twitter.com/andrewheiss">@andrewheiss</a></h2>
+		<div id="twitter">
+			<div id="loading">
+				<p>Loading tweets&hellip;</p>
+				<img src="/images/loader-bar.gif" alt="Loading tweets" />
+			</div>
+		</div>
+		<script src="/script/twitter.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/script/show_tweets.js" type="text/javascript" charset="utf-8"></script>
 	</div>
 </div>

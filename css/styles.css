@@ -45,12 +45,6 @@ Colors
 	src: local('Museo Slab 500'), url('/css/fonts/Museo_Slab_500.otf') format('opentype');
 }
 
-@font-face {
-	font-family: 'QuicksandBook';
-	src: url('Quicksand_Book.eot');
-	src: local('Quicksand Book'), local('QuicksandBook-Regular'), url('Quicksand_Book.woff') format('woff'), url('Quicksand_Book.otf') format('opentype'), url('Quicksand_Book.svg#QuicksandBook-Regular') format('svg');
-}
-
 /* @end */
 
 /* @group Resets */
@@ -122,6 +116,7 @@ h1 {
 
 h2 {
 	font-size: 1.8em;
+	line-height: 1.2em;
 }
 
 h3 {
@@ -204,7 +199,7 @@ cite {
 }
 
 blockquote {
-	margin: 0 3em;
+	margin: 0 3em 1em;
 	padding: .8em .8em 0; /* Make the same as the padding under the universal `p` to compensate for the space after the paragraph */
 	background-color: #f8f8f8;
 	font-family: "Museo Slab", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
@@ -242,6 +237,14 @@ pre {
 	overflow-x:auto; 
 }
 
+.clearfloat {
+	font-size: 1px;
+	line-height: 0px;
+	clear: both;
+	width: 0px;
+	display: block;
+}
+
 /* @group Forms */
 
 fieldset {
@@ -267,31 +270,112 @@ textarea {
 
 /* @end */
 
+/* @group Header */
+
+#header {
+	width: 100%;
+	height: 170px;
+	background: url(images/square.jpg) repeat 0 30px;
+	text-align: right;
+	text-rendering: optimizeLegibility;
+	position: relative;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
+	overflow: hidden;
+}
+
+#header h1 {
+	padding-top: .5em;
+	font-size: 3.2em;
+	line-height: 1.2em;
+}
+
+#header h2 {
+	color: #fefefe;
+	font-family: Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+
+#header a {
+	color: #fff;
+}
+
+#header a:hover {
+	color: #495cd6;
+}
+
+/* @end */
+
+/* @group Navbar */
+
+#navbar-wrapper {
+	width: 100%;
+	background: transparent url(images/black-30.png);
+	background: rgba(0,0,0,0.3) none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 5px 0;
+	border-bottom: 3px solid #000;
+}
+
+#navbar {
+	list-style: none;
+	text-align: left;
+	font-family: Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 1.2em;
+	padding-bottom: 0;
+	line-height: 1.3em;
+	padding-left: 0;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
+}
+
+#navbar li {
+	display: inline;
+	margin-right: .7em;
+	color: #999999;
+}
+
+/* @end */
+
 #wrapper {
 	width: 720px;
 	margin: 50px auto;
 	text-align: left;
 }
 
-h1.title {
-	text-align: right;
+#frontbio {
+	font-size: 1.5em;
+	padding-bottom: 2em;
 }
 
-#navbar {
+#loading {
+	padding-top: 6em;
+	text-align: center;
+	font: normal .6em/1em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-transform: uppercase;
+}
+
+#loading p {
+	padding: 0;
+}
+
+#twitter ul {
 	list-style: none;
-	text-align: right;
-	font-family: Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	font-size: 1.2em;
+	padding: 0;
 }
 
-#navbar li {
-	display: inline;
-	margin-left: .7em;
-	color: #999999;
+#twitter li {
+	padding-bottom: 1em;
+}
+
+.twitter_timestamp {
+	font: normal .6em/1em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	display: block;
 }
 
 .post-meta {
-	padding-top: .5em;
+	padding-top: .2em;
 	text-align: right;
 }
 
@@ -300,6 +384,8 @@ h1.title {
 	color: #999999;
 	padding-bottom: 1em;
 }
+
+/* @group Footnotes */
 
 .footnotes {
 	font-size: .7em;
@@ -318,9 +404,50 @@ h1.title {
 	padding-left: 1em;
 }
 
-#footer {
-	font: normal .7em/1.4em Museo Slab, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+/* @end */
+
+#footer-wrapper {
+	width: 100%;
+	background: url(images/square.jpg) repeat 0 -10px;
 	text-align: right;
-	font-size: .8em;
+	overflow: hidden;
+	border-top: 3px solid #000;
+}
+
+#footer-inner-wrapper {
+	width: 100%;
+	background: transparent url(images/black-30.png);
+	background: rgba(0,0,0,0.3) none;
+	padding: 0;
+}
+
+#footer {
+	font: normal .8em/1.4em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-rendering: optimizeLegibility;
+	background: transparent url(images/black-30.png);
+	background: rgba(0,0,0,0.3) none;
+	text-align: right;
 	color: #999999;
+	padding: 1em 0;
+}
+
+#footer ul {
+	list-style: none;
+	width: 280px; /* Four columns */
+	text-align: left;
+	padding: 0;
+}
+
+#footer li {
+	display: block;
+	float: left;
+	width: 140px; /* Two columns*/
+}
+
+#footer h3 {
+	line-height: 1.2em;
+}
+
+#footer p {
+	padding-bottom: 0;
 }

@@ -2,6 +2,7 @@
 layout: post
 title: Libya, obsolete paradigms, and Rip Van Winkle
 excerpt: Lisa Anderson's research of political systems in Libya reveals that standard Middle East Studies paradigms don't fully apply.
+category: post
 tags:
 - auc
 - faculty seminar

@@ -2,6 +2,7 @@
 layout: post
 title: Populating a LiveCycle PDF with PHP and MySQL
 excerpt: Tutorial explaining how to populate a LiveCycle PDF form using PHP and MySQL.
+category: post
 tags:
 - mysql
 - pdftk

@@ -2,6 +2,7 @@
 layout: post
 title: iTunes plugin for Flashbake
 excerpt: Flashbake-iTunes is a plugin for Flashbake that allows you to include information for the current track in the periodic git commit message.
+category: post
 tags:
 - flashbake
 - git

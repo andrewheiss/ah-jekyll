@@ -2,6 +2,7 @@
 layout: post
 title: Using Arabic in InDesign without InDesign ME
 excerpt: How to use the Glyphs panel in InDesign CS3 to insert Arabic text, despite the lack of support for Arabic.
+category: post
 tags:
 - arabic
 - graphic design

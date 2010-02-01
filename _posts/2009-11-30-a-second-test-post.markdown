@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Second test post
+category: post
 tags:
 - markdown
 - test

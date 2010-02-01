@@ -4,6 +4,7 @@ auto:           true
 server:         true
 server_port:    4000
 pygments:       false
+pygments_cache: ./_cache
 markdown:       maruku
 permalink:      pretty
 extensions:     true

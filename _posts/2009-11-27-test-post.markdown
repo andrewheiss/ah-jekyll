@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First post!
+category: post
 ---
 
 How cool is *this*?

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Syntax highlighting test
+category: post
 ---
 
 Does this work?
