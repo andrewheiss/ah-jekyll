@@ -234,7 +234,7 @@ pre {
 	border: 1px solid silver; 
 	padding-left: 5px; 
 	margin-bottom: 1.2em; 
-	overflow-x:auto; 
+	overflow-x: auto; 
 }
 
 .clearfloat {
@@ -344,6 +344,8 @@ textarea {
 	text-align: left;
 }
 
+/* @group Front page */
+
 #frontbio {
 	font-size: 1.5em;
 	padding-bottom: 2em;
@@ -373,6 +375,8 @@ textarea {
 	font: normal .6em/1em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	display: block;
 }
+
+/* @end */
 
 .post-meta {
 	padding-top: .2em;
@@ -405,6 +409,8 @@ textarea {
 }
 
 /* @end */
+
+/* @group Footer */
 
 #footer-wrapper {
 	width: 100%;
@@ -451,3 +457,5 @@ textarea {
 #footer p {
 	padding-bottom: 0;
 }
+
+/* @end */
