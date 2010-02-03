@@ -88,6 +88,13 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 
 /* @end */
 
+.faux {
+	margin: 0 20px 0 0 ;
+	overflow: hidden;
+	float: left;
+	display: block;
+}
+
 /* @group Globals */
 
 body {
@@ -389,6 +396,8 @@ textarea {
 	color: #999999;
 }
 
+/* @group Archive and tag pages */
+
 .top {
 	color: #999;
 }
@@ -397,11 +406,19 @@ textarea {
 	color: #495cd6;
 }
 
-#tags p, #archive p {
+#archive {
+	padding: 0 10px;
+}
+
+#archive h3 {
+	clear: both;
+}
+
+#archive p {
 	padding-bottom: 0;
 }
 
-#tags h3, #archive h3 {
+#archive h3 {
 	padding-top: 1em;
 }
 
@@ -415,6 +432,8 @@ textarea {
 	padding-right: .7em;
 	display: inline;
 }
+
+/* @end */
 
 /* @group Footnotes */
 

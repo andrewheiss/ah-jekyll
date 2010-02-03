@@ -1,27 +1,22 @@
 ---
-layout: static
+layout: archive
 title: Tags
 ---
 
-<div id="tags">
-
 <ul id="tag-list">	
 {% for tag in @site.tags|keys|sort %}
-	<li><a href="#{{tag | downcase}}" class="tag">{{tag | downcase}}</a></li>
+	<li><a href="#{{tag | downcase }}" class="tag">{{tag | downcase}}</a></li>
 {% endfor %}	
 </ul>	
 	
 {% for tag in @site.tags|keys|sort %}
 <h3 id="{{ tag }}">{{ tag }} <a href="#" class="top">&#8617;</a></h3>
 	{% for post in @site.posts|tagged:tag|sort %}
-	<div class="row">
-		<div class="column grid_2">
-			<p>{{ post.date | date: '%b %e, %Y' }}</p>
-		</div>
-		<div class="column grid_7">
-			<p><a href="{{ post.url }}">{{ post.title }}</a></p>
-		</div>
-	</div>
+		<p>
+			<span class="faux grid_2">{{ post.date | date: '%b %e, %Y' }}</span> 
+			<span class="faux grid_7">
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			</span>
+		</p>
 	{% endfor %}
 {% endfor %}
-</div>
