@@ -12,7 +12,7 @@ title: Tags
 </ul>	
 	
 {% for tag in @site.tags|keys|sort %}
-<h3 id="{{ tag }}">{{ tag }}</h3>
+<h3 id="{{ tag }}">{{ tag }} <a href="#" class="top">&#8617;</a></h3>
 	{% for post in @site.posts|tagged:tag|sort %}
 	<div class="row">
 		<div class="column grid_2">

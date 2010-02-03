@@ -238,14 +238,6 @@ pre {
 	overflow-x: auto; 
 }
 
-.clearfloat {
-	font-size: 1px;
-	line-height: 0px;
-	clear: both;
-	width: 0px;
-	display: block;
-}
-
 /* @group Forms */
 
 fieldset {
@@ -395,6 +387,14 @@ textarea {
 .post-meta p {
 	font: normal .9em/1.4em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	color: #999999;
+}
+
+.top {
+	color: #999;
+}
+
+.top :hover {
+	color: #495cd6;
 }
 
 #tags p, #archive p {

@@ -3,5 +3,4 @@
 * Comments
 * Projects
 * Portfolio
-* Don't use so many divs?
-* Eliminate all the clearfloats?
+* Don't use so many divs? - Improve static page divitis
