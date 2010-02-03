@@ -1,9 +1,17 @@
 <p>
-	<span class="date" title="{{ p.date | date_to_xmlschema }}">
-		<span class="day">{{ p.date | date: '%A' }}, </span>
-		<span class="month">{{ p.date | date: '%B' }}</span>
-		<span class="date">{{ p.date | date: '%e' }}, </span>
-		<span class="year">{{ p.date | date: '%Y' }}</span>
+	<span class="date" title="{{ page.date | date_to_xmlschema }}">
+		<span class="month">{{ page.date | date: '%B' }}</span>
+		<span class="date">{{ page.date | date: '%e' }}, </span>
+		<span class="year">{{ page.date | date: '%Y' }}</span>
 	</span>
 </p>
-<p><a href="{{ p.url }}#disqus_thread">Comments</a></p>
+
+{% if page.tags != empty %}
+<p>Tagged as:
+	{% for tag in page.tags | sort %}
+	<a href="/tag#{{tag | downcase}}" class="tag">{{tag | downcase}}</a>{% unless forloop.last %}, {% endunless %}
+	{% endfor %}
+</p>
+{% endif %}
+
+<p><a href="{{ page.url }}#disqus_thread">comments</a></p>

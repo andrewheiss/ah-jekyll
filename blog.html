@@ -2,20 +2,26 @@
 layout: base
 title: Home
 ---
-{% for p in site.categories.post %}
-<div class="row">
+{% for page in site.categories.post %}
+<div class="row entry">
 	<div class="post-meta column grid_2">
 		{% include meta.html %}
 	</div>
 	<div class="column grid_7">
 		<div class="entry content">
 			<h2 class="clear">
-				<a href="{{ p.url }}" title="{{ p.title }}"> 
-					{{ p.title }}
+				<a href="{{ page.url }}" title="{{ page.title }}"> 
+					{{ page.title }}
 				</a>
 			</h2>
-			{{ p.excerpt }} <a href="{{ p.url }}">Read the rest&nbsp;&raquo;</a>
+			{{ page.excerpt }} <a href="{{ page.url }}">Read the rest&nbsp;&raquo;</a>
 		</div>
 	</div>
 </div>
 {% endfor %}
+<div class="row">
+	<div class="column grid_2">&nbsp;</div>
+	<div class="column grid_7">
+		<p><a href="/archive/">Older posts &raquo;</a></p>
+	</div>
+</div>
