@@ -14,7 +14,7 @@ layout: nil
    <email>andrew@andrewheiss.com</email>
  </author>
  
- {% for post in site.posts %}
+ {% for post in site.categories.blog %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://www.andrewheiss.com{{ post.url }}"/>
