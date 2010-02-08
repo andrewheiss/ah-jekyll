@@ -5,18 +5,25 @@ title: Tags
 
 <ul id="tag-list">	
 {% for tag in @site.tags|keys|sort %}
-	<li><a href="#{{tag | downcase }}" class="tag">{{tag | downcase}}</a></li>
+	<li><a href="#{{tag | downcase | fix_spaces }}" class="tag">{{tag | downcase}}</a></li>
 {% endfor %}	
 </ul>	
-	
+
+{% assign first = true %}	
 {% for tag in @site.tags|keys|sort %}
-<h3 id="{{ tag }}">{{ tag }} <a href="#" class="top">&#8617;</a></h3>
+	{% unless first == true %}
+	</ul>
+	{% endunless %}
+	<h3 id="{{ tag | downcase | fix_spaces }}">{{ tag }} <a href="#" class="top">&#8617;</a></h3>
+	<ul>
 	{% for post in @site.posts|tagged:tag|sort %}
-		<p>
+		<li>
 			<span class="faux grid_2">{{ post.date | date: '%b %e, %Y' }}</span> 
 			<span class="faux grid_7">
 				<a href="{{ post.url }}">{{ post.title }}</a>
 			</span>
-		</p>
+		</li>
 	{% endfor %}
+	{% assign first = false %}
 {% endfor %}
+	</ul>

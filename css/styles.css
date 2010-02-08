@@ -396,6 +396,11 @@ textarea {
 	color: #999999;
 }
 
+.archive-link {
+	font: bold 1.2em/1.5em "Museo Slab", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+
+}
+
 /* @group Archive and tag pages */
 
 .top {
@@ -407,19 +412,22 @@ textarea {
 }
 
 #archive {
-	padding: 0 10px;
+	margin: 0 10px;
+	width: 100%;
 }
 
-#archive h3 {
-	clear: both;
-}
-
-#archive p {
+#archive h2 {
 	padding-bottom: 0;
 }
 
 #archive h3 {
+	clear: both;
 	padding-top: 1em;
+}
+
+#archive ul {
+	padding: 0;
+	list-style: none;
 }
 
 #tag-list {

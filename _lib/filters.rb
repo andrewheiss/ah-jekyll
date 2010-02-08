@@ -21,6 +21,10 @@ module Jekyll
       
       "#{description}"
     end
+    
+    def fix_spaces(input)
+      input.gsub(' ', '-')
+    end
 
   end
 end
