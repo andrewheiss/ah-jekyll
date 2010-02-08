@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Syntax highlighting test
-category: post
+category: blog
 ---
 
 Does this work?

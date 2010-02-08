@@ -2,7 +2,7 @@
 layout: post
 title: pdftk-php Officially Released
 excerpt: After almost two years, I've officially developed and released pdftk-php--a script that lets you inject form data into a PDF with PHP.
-category: post
+category: blog
 tags:
 - pdf
 - pdftk

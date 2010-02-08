@@ -2,7 +2,7 @@
 layout: post
 title: Semester almost over
 excerpt: This is just a short test post.
-category: post
+category: blog
 ---
 
 Date\: This does work!

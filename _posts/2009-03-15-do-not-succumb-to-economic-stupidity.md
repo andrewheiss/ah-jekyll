@@ -2,7 +2,7 @@
 layout: post
 title: Do not succumb to economic stupidity
 excerpt: Listening to NPR's Planet Money economics podcast really does help to understand the current economic crisis.
-category: post
+category: blog
 tags:
 - economic crisis
 - links

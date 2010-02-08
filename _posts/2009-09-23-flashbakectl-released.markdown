@@ -2,7 +2,7 @@
 layout: post
 title: flashbakectl released
 excerpt: flashbakectl is a handy little script that starts and stops Flashbake by loading and unloading plist files.
-category: post
+category: blog
 tags:
 - flashbake
 - git

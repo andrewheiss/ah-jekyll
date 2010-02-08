@@ -2,7 +2,7 @@
 layout: post
 title: On narrowing and redefining research
 excerpt: After a year of deliberation, I may have finally decided what to write about for my thesis.
-category: post
+category: blog
 tags:
 - bloggers
 - history

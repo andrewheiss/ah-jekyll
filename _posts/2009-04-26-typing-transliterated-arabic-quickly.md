@@ -2,7 +2,7 @@
 layout: post
 title: Typing transliterated Arabic quickly
 excerpt: Use text-replacement software to automate Arabic transliteration.
-category: post
+category: blog
 tags:
 - arabic
 - automation

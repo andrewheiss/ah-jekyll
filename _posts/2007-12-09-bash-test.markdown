@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bash highlighting test
-category: post
+category: blog
 tags:
 - blah
 - bash

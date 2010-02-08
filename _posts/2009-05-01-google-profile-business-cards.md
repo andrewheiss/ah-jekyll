@@ -2,7 +2,7 @@
 layout: post
 title: Google Profile Business Cards
 excerpt: I got 25 Google Profile business cards for free. Woot!
-category: post
+category: blog
 tags:
 - cool
 - ego-googling

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Second test post
-category: post
+category: blog
 tags:
 - markdown
 - test
