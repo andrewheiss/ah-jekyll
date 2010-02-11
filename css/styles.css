@@ -545,8 +545,8 @@ textarea {
 }
 
 #footer h3 {
-	line-height: 1.2em;
-	text-align: left;
+	font: 1.5em/1.2em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;;
+	text-align: right;
 }
 
 #footer p {
