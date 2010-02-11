@@ -1,21 +1,18 @@
 ---
 layout: base
-title: Home
+title: Portfolio
 ---
+
 {% for p in site.categories.portfolio %}
-<div class="row">
-	<div class="post-meta column grid_2">
-		{% include meta.html %}
+{% cycle 'add rows': '<div class="row">', nil, nil %}
+	<div class="port-thumb column grid_3">
+		<a href="{{ p.url }}" title="{{ p.title }}"><img src="{{ p.thumb }}" alt="{{ p.title }}" class="captify" /></a>
 	</div>
-	<div class="column grid_7">
-		<div class="entry content">
-			<h2>
-				<a href="{{ p.url }}" title="{{ p.title }}"> 
-					{{ p.title }}
-				</a>
-			</h2>
-			{{ p.excerpt }} <a href="{{ p.url }}">Read the rest&nbsp;&raquo;</a>
-		</div>
-	</div>
-</div>
+{% cycle 'close rows': nil, nil, '</div>' %}
 {% endfor %}
+
+{% comment %} Ideally this could all just be `if site.categories.portfolio.size % 3 == 0`, but Liquid won't work with a modulus, so this workaround the epitome of cruftiness. {% endcomment %}
+{% assign total = site.categories.portfolio.size %}
+{% unless total == 3 or total == 6 or total == 9 or total == 12 or total == 15 %}
+</div>
+{% endunless %}

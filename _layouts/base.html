@@ -12,6 +12,15 @@
 		<link href="/css/ie6fix.css" rel="stylesheet" type="text/css" />
 		<![endif]-->
 		<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+		{% if page.title == 'Portfolio' %}
+		<script src="/script/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/script/captify.tiny.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(function(){
+				$('img.captify').captify({});
+			});
+		</script>
+		{% endif %}
 		{% if page.title == 'Blog' or page.categories and page.categories contains 'blog' %}
 		<script type="text/javascript" charset="utf-8">
 			var disqus_developer = 1;

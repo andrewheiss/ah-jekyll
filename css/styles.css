@@ -495,6 +495,56 @@ textarea {
 
 /* @end */
 
+/* @group Portfolio */
+
+.port-thumb {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	background-color: lightgrey;
+}
+
+#portfolio-entry h2 {
+	margin: 0 10px;
+}
+
+/* @group Captify */
+
+.caption-top, .caption-bottom {
+	color: #ffffff;	
+	padding: 20px;	
+	font-size: 15px;	
+	font-family: Museo Slab, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;	
+	cursor: default;
+	/*border: 0px solid #334143;*/
+	background: #000000;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
+}
+/*.caption-top {
+   border-width: 0px 0px 8px 0px;
+}
+.caption-bottom {
+   border-width: 8px 0px 0px 0px;
+}*/
+.caption a, .caption a {
+	border: 0 none;
+	text-decoration: none;
+	background: #000000;
+	padding: 0.3em;
+}
+.caption a:hover, .caption a:hover {
+	background: #202020;
+}
+.caption-wrapper {
+	float: left;
+}
+br.c { clear: both; }
+
+/* @end */
+
+/* @end */
+
 /* @group Footer */
 
 #footer-wrapper {
@@ -554,6 +604,8 @@ textarea {
 }
 
 /* @end */
+
+/* @group Disqus overrides */
 
 #disqus_thread, #dsq-new-post {
 	padding-top: 1.5em !important;
@@ -615,3 +667,5 @@ textarea {
 	border: 1px solid #f5c1c2 !important;
 	color: #9e0b0f !important;
 }
+
+/* @end */
