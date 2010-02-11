@@ -25,6 +25,15 @@ module Jekyll
     def fix_spaces(input)
       input.gsub(' ', '-')
     end
+    
+    # Would be nice to do this with Hpricot or Tidy or something in the future, rather than parsing HTML with regex (evil, I know :) ). Like Henrick's - http://henrik.nyh.se/2008/01/rails-truncate-html-helper
+    def close_tags(text)
+      open_tags = []
+      text.scan(/\<([^\>\s\/]+)[^\>\/]*?\>/).each { |t| open_tags.unshift(t) }
+      text.scan(/\<\/([^\>\s\/]+)[^\>]*?\>/).each { |t| open_tags.slice!(open_tags.index(t)) }
+      open_tags.each {|t| text += "</#{t}>" }
+      text
+    end
 
   end
 end

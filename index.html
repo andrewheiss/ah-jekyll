@@ -11,7 +11,7 @@ title: Home
 	<div class="column grid_6">
 		{% for p in site.categories.blog limit:1 %}
 		<h2><a href="{{ p.url }}">Latest blog post</a></h2>
-		{{ p.content | truncatewords: 50 }} <a href="{{ p.url }}">Read the rest&nbsp;&raquo;</a>
+		{{ p.content | truncatewords: 50 | close_tags }} <a href="{{ p.url }}">Read the rest&nbsp;&raquo;</a>
 		{% endfor %}
 	</div>
 	<div class="column grid_3">
