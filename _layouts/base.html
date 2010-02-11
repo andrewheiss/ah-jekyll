@@ -12,10 +12,14 @@
 		<link href="/css/ie6fix.css" rel="stylesheet" type="text/css" />
 		<![endif]-->
 		<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+		{% if page.title == 'Blog' or page.categories and page.categories contains 'blog' %}
 		<script type="text/javascript" charset="utf-8">
 			var disqus_developer = 1;
 			var disqus_url = "http://www.andrewheiss.com{{ page.url }}";
+			var disqus_iframe_css = "http://www.andrewheiss.com/disqus-iframe.css";
+			// var disqus_iframe_css = "http://www.andrewheiss.com/css/disqus-iframe.css";
 		</script>
+		{% endif %}
 	</head>
 	<body>
 		<div id="header">
@@ -28,6 +32,9 @@
 			{{ content }}
 		</div>
 		{% include footer.html %}
-		{% include disqus.html %}
+		
+		{% if page.title == 'Blog' or page.categories and page.categories contains 'blog' %}
+			{% include disqus.html %}
+		{% endif %}
 	</body>
 </html>
