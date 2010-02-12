@@ -409,6 +409,8 @@ textarea {
 
 /* @end */
 
+/* @group Blog posts and static pages */
+
 .entry {
 	margin-bottom: 2em;
 }
@@ -431,6 +433,8 @@ textarea {
 	font: bold 1.2em/1.5em "Museo Slab", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 
 }
+
+/* @end */
 
 /* @group Archive and tag pages */
 
@@ -518,6 +522,10 @@ textarea {
 
 .project-meta h3 {
 	font-size: 1.5em;
+}
+
+.project-meta h4 {
+	padding-top: .4em;
 }
 
 .project-meta ul {
