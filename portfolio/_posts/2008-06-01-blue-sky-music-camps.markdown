@@ -3,7 +3,8 @@ layout: portfolio
 title: Blue Sky Music Camps
 category: portfolio
 permalink: /portfolio/blue-sky-music-camps
-thumb: /images/blue-sky.png
+thumb: /images/blue-sky-thumb.png
+full: /images/blue-sky-full.png
 link: http://www.blueskymusiccamps.com/
 type: web
 details:

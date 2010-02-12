@@ -3,32 +3,42 @@ layout: base
 ---
 
 <div id="portfolio-entry">
-	<h2>{{ page.title }}</h2>
+	<div class="row">
+		<div class="column grid_7">
+			<h2>{{ page.title }}</h2>
+		</div>
+		<div class="port-breadcrumb column grid_2">
+			<p><a href="/portfolio/">&laquo; Back to portfolio</a></p>
+		</div>
+	</div>
 	<div class="row">
 		<div class="column grid_6">
-			<img src="/images/460x300.png" alt="460x300" />
-		</div>
-		<div class="column grid_3">
-			<p>{{ page.date | date: '%B %Y' }}</p>
-		
 			{% if page.link %}
-			<p><a href="{{ page.link }}">View live</a></p>
+			<a href="{{ page.link }}" title="{{ page.title }}"><img src="{{ page.full }}" alt="{{ page.title }}" /></a>
+			{% else %}
+			<img src="{{ page.full }}" alt="{{ page.title }}" />
 			{% endif %}
-		
+		</div>
+		<div class="project-meta column grid_3">
+			<h3>{{ page.date | date: '%B %Y' }}</h3>
+			
+			{% if page.link %}
+			<h4><a href="{{ page.link }}" title="{{ page.title }}">Visit live</a></h4>
+			{% endif %}
+			
 			{% if page.details %}
+			<h4>Quick details</h4>
 			<ul>
-				{% for d in page.details %}
-				<li>{{d}}</li>
+				{% for detail in page.details %}
+				<li>{{ detail }}</li>
 				{% endfor %}
-			</li>
+			</ul>
 			{% endif %}
 		</div>
 	</div>
 	<div class="row">
-		<div class="column grid_9">
-			<div class="entry content">
-				{{ content }}
-			</div>
+		<div class="project-desc column grid_9">
+			{{ content }}
 		</div>
 	</div>
 </div>

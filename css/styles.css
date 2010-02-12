@@ -509,24 +509,43 @@ textarea {
 	margin: 0 10px;
 }
 
+.project-meta {
+	width: 200px;
+	padding: 10px;
+	background: transparent url(images/black-10.png);
+	background: rgba(0,0,0,0.1) none;
+}
+
+.project-meta h3 {
+	font-size: 1.5em;
+}
+
+.project-meta ul {
+	font: normal 1em/1.5em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.port-breadcrumb {
+	font: normal .7em/1em Museo Slab, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-align: right;
+}
+
+.project-desc {
+	margin-top: 20px;
+}
+
 /* @group Captify */
 
 .caption-top, .caption-bottom {
-	color: #ffffff;	
-	padding: 20px;	
-	font-size: 15px;	
+	color: #ffffff;
+	padding: 20px;
+	font-size: 15px;
 	font-family: Museo Slab, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;	
 	cursor: default;
-	/*border: 0px solid #334143;*/
-	background: #000000;
+	border-width: 0; /* Needs some set border-width for jQuery in IE, otherwise it throws an error */
+	background: #000;
 	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
 }
-/*.caption-top {
-   border-width: 0px 0px 8px 0px;
-}
-.caption-bottom {
-   border-width: 8px 0px 0px 0px;
-}*/
+
 .caption a, .caption a {
 	border: 0 none;
 	text-decoration: none;
