@@ -547,6 +547,7 @@ textarea {
 	color: #ffffff;
 	padding: 20px;
 	font-size: 15px;
+	line-height: 18px;
 	font-family: Museo Slab, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;	
 	cursor: default;
 	border-width: 0; /* Needs some set border-width for jQuery in IE, otherwise it throws an error */
