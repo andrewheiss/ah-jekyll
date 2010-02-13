@@ -14,7 +14,7 @@ title: Tags
 	{% unless first == true %}
 	</ul>
 	{% endunless %}
-	<h3 id="{{ tag | downcase | fix_spaces }}">{{ tag }} <a href="#" class="top">&#8617;</a></h3>
+	<h3 id="{{ tag | downcase | fix_spaces }}">{{ tag }} <a href="#" class="top" title="Back to top">&uarr;</a></h3>
 	<ul>
 	{% for post in @site.posts|tagged:tag|sort %}
 		<li>
