@@ -48,10 +48,6 @@ I've been involved in [many contracted web design jobs](/portfolio/) and [design
 
 I started an open source project, [pdftk-php][pdftk-php], as an outgrowth of [a project I was in charge of][mmlab] while I worked at the HBLL Multimedia Lab.
 
-### Under the hood ###
-
-[AndrewHeiss.com](http://www.andrewheiss.com/) is hosted by [NearlyFreeSpeech.net][nfsn].
-
 {% comment %} 
 Images 
 {% endcomment %}
@@ -74,4 +70,3 @@ Links
 [hbll]: http://lib.byu.edu/ "Harold B. Lee Library"
 [mmlab]: https://mmlab.lib.byu.edu/mmlab/ "HBLL Multimedia Lab"
 [pdftk-php]: http://code.google.com/p/pdftk-php/ "pdftk-php - Google Code"
-[nfsn]: https://www.nearlyfreespeech.net/ "NearlyFreeSpeech.net"
