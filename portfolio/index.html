@@ -6,7 +6,7 @@ title: Portfolio
 {% for p in site.categories.portfolio %}
 {% cycle 'add rows': '<div class="row">', nil, nil %}
 	<div class="port-thumb column grid_3">
-		<a href="{{ p.url }}" title="{{ p.title }}"><img src="{{ p.thumb }}" alt="{{ p.title }}" class="captify" /></a>
+		<a href="{{ p.url }}" title="{{ p.title }}"><img src="{{ p.thumb }}" alt="{{ p.title }}" class="captify" width="200" height="200" /></a>
 	</div>
 {% cycle 'close rows': nil, nil, '</div>' %}
 {% endfor %}
