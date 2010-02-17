@@ -226,7 +226,7 @@ pre {
 	font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
 	margin-bottom: .8em; /* The same as `p` */
 	line-height: 1.4em;
-	font-size: .9em;
+	font-size: 1em;
 	overflow-x: auto; /* Use horizontal scroller if needed; for Firefox 2, not needed in Firefox 3 */
 	white-space: pre-wrap; /* css-3 */
 	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
@@ -285,6 +285,11 @@ pre {
 	float: left;
 	padding: 0;
 	margin: 0 20px 20px 0;
+}
+
+.full {
+	float: left;
+	width: 100%;
 }
 
 /* @group Forms */
@@ -640,71 +645,6 @@ br.c { clear: both; }
 
 #footer p {
 	padding-bottom: 0;
-}
-
-/* @end */
-
-/* @group Disqus overrides */
-
-#disqus_thread, #dsq-new-post {
-	padding-top: 1.5em !important;
-	margin-top: 1.5em !important;
-	border-top: 2px solid #999999 !important;
-}
-
-#disqus_thread h3 {
-	font-size: 1.9em !important;
-	padding: 0 0 .5em;
-}
-
-.dsq-options, .dsq-request-user-info, .dsq-login-buttons {
-	background: none !important;
-}
-
-#dsq-comments p {
-	font-size: 1em;
-	line-height: 1.5em;
-}
-
-.dsq-comment-message {
-	font-size: 1.2em;
-}
-
-.dsq-comment-header-meta {
-	font-size: .9em;
-	font-family: Museo Slab, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-}
-
-.dsq-autheneticate-copy, .dsq-comment-footer-left, .dsq-comment-footer-right {
-	font-family: Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-}
-
-#dsq-form-area input {
-	font-size: 1.2em !important;
-}
-
-.dsq-brlink, .dsq-dc-logo, .dsq-item-trackback {
-	display: none !important;
-}
-
-.dsq-missing-permissions {
-	padding: 8px 8px 8px 28px !important;
-	margin-bottom: .8em !important;
-	font-family: Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	font-size: .9em !important;
-	background: #fffeeb url(images/warning.gif) no-repeat 7px 10px !important;
-	border: 1px solid #e6e5d8 !important;
-	color: #555 !important;
-}
-
-.dsq-error {
-	padding: 8px 8px 8px 28px !important;
-	margin-bottom: .8em !important;
-	font-family: Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	font-size: 1em !important;
-	background: #ffebeb url(images/x.gif) no-repeat 7px 10px !important;
-	border: 1px solid #f5c1c2 !important;
-	color: #9e0b0f !important;
 }
 
 /* @end */

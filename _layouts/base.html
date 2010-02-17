@@ -6,6 +6,9 @@
 		<meta name="description" content="{{ page.excerpt|descriptionify }}" />
 		<meta name="author" content="Andrew Heiss" />
 		<title>{{ page.title }} | Andrew Heiss.com</title>
+		<link rel="openid.server" href="https://pip.verisignlabs.com/server/" />
+		<link rel="openid.delegate" href="http://andrewheiss.pip.verisignlabs.com" />
+		<link rel="alternate" type="application/atom+xml" title="Blog Posts" href="http://feeds.andrewheiss.com/AndrewHeiss" />
 		<link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="/css/syntax.css" type="text/css" />
 		<!--[if lte IE 6]>
@@ -25,16 +28,28 @@
 			    });
 			});
 		</script>
+		
 		{% if page.title == 'Blog' or page.categories and page.categories contains 'blog' %}
-		<script type="text/javascript" charset="utf-8">
-			var disqus_developer = 1;
-			var disqus_url = "http://www.andrewheiss.com{{ page.url }}";
+		<link rel="stylesheet" href="/css/disqus-default.css" type="text/css" media="screen" title="Default Disqus styles" charset="utf-8" />
+		<script src="/script/disqus.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
 			var disqus_iframe_css = "http://www.andrewheiss.com/disqus-iframe.css";
 			// var disqus_iframe_css = "http://www.andrewheiss.com/css/disqus-iframe.css";
-		</script>
+		
+			$(document).ready(function() {
+				$('#disqus_thread').disqus({
+					domain: 'andrewheisscom',
+					url: 'http://www.andrewheiss.com{{ page.url }}',
+					developer: 1 // True for testing.
+				});
+	
+				jQuery.disqusLinks('andrewheisscom');
+			});
+	    </script>
 		{% endif %}
 	</head>
 	<body>
+		{% include google_analytics.html %}
 		<div id="header">
 			{% include header.html %}
 			<div id="navbar-wrapper">
@@ -45,9 +60,5 @@
 			{{ content }}
 		</div>
 		{% include footer.html %}
-		
-		{% if page.title == 'Blog' or page.categories and page.categories contains 'blog' %}
-			{% include disqus.html %}
-		{% endif %}
 	</body>
 </html>
