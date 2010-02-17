@@ -647,4 +647,8 @@ br.c { clear: both; }
 	padding-bottom: 0;
 }
 
+#print-message {
+	display: none;
+}
+
 /* @end */
