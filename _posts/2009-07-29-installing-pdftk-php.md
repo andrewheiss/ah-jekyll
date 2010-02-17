@@ -25,8 +25,8 @@ Unzip the download from GitHub and place the folder on your server. I've placed 
 
 Create a MySQL user and database and run the SQL found in `/example/database.sql` in a MySQL client (like phpMyAdmin) to create the sample database.
 
-![Example Query in phpMyAdmin](http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/example_query_in_phpmyadmin.png)  
-*Example query in phpMyAdmin*
+![Example Query in phpMyAdmin](http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/example_query_in_phpmyadmin.png "Example query in phpMyAdmin"){: .captify}
+{: .full}
 
 Modify the information in `example/_dbConfig.php` so that the application can connect to your database.
 
@@ -91,16 +91,16 @@ $fdf_fn = tempnam("/Library/WebServer/www/pdftk-php/tmp", "fdf");
 
 Create a fillable form in either Acrobat Professional or LiveCycle Designer, or use the included example PDF form. Give each field a unique and significant name so that you can work with the form more easily later on. You can modify field attributes by double clicking on the field using the Forms toolbar in Acrobat; in LiveCycle, use the Object panel.
 
-![Acrobat Form Field Options](http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/acrobat_form_field_options.png)  
-*Acrobat Form Field Options*
+![Acrobat Form Field Options](http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/acrobat_form_field_options.png "Acrobat Form Field Options"){: .captify}
+{: .full}
 
-![LiveCycle Form Field Options](http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/livecycle_form_field_options.png)  
-*LiveCycle Form Field Options*
+![LiveCycle Form Field Options](http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/livecycle_form_field_options.png "LiveCycle Form Field Options"){: .captify}
+{: .full}
 
 If you are using LiveCycle, you'll need to save the final PDF as a **static** form compatible with Acrobat 7. pdftk doesn't work with dynamic forms or PDFs from later versions of Acrobat.
 
-![LiveCycle Save Options](http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/livecycle_save_options.png)  
-*LiveCycle Save Options*
+![LiveCycle Save Options](http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/livecycle_save_options.png "LiveCycle Save Options"){: .captify}
+{: .full}
 
 #### Connect PDF to script
 
@@ -158,8 +158,8 @@ ALTER TABLE `users` ADD `option1` TINYINT( 1 ) NOT NULL, ADD `option2` TINYINT( 
 	
 Open `/example/example.pdf` in Acrobat Professional and add two checkbox fields named `option1` and `option2`.
 
-![Ridiculously Huge Checkboxes Better](http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/ridiculously_huge_checkboxes_better.png)  
-*Ridiculously huge checkboxes*
+![Huge Checkboxes](http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/ridiculously_huge_checkboxes_better.png "Ridiculously huge checkboxes"){: .captify}
+{: .full}
 
 We need to modify our web form and the table that displays the data, just to make sure everything is getting saved to the database correctly.
 
@@ -276,8 +276,8 @@ FieldJustification: Left
 	
 You can see the "Yes" vs. "Off" values in our checkbox (called "Button" in PDF lingo). Drop down lists ("Choice" in PDF-speak) have multiple values, specified by you when you create the field.
 
-![Combo box properties](http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/combo_box_properties.png)  
-*Sample combo box properties in Acrobat*
+![Combo box properties](http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/combo_box_properties.png "Sample combo box properties in Acrobat"){: .captify}
+{: .full}
 
 Radio buttons are hybrids. They are considered "Buttons," like checkboxes, but can have custom values, like drop down lists.
 
