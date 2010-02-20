@@ -1,10 +1,8 @@
 destination:    ./_site
 lsi:            false
-auto:           true
-server:         true
-server_port:    4000
 pygments:       true
 pygments_cache: ./_cache
 markdown:       maruku
 permalink:      pretty
 extensions:     true
+exclude:        ['Rakefile', 'README.markdown', 'TODO.markdown']
