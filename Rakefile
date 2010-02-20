@@ -11,31 +11,31 @@ task :build do
   jekyll
 end
  
-desc "Serve on Localhost with port 4000"
+desc "Serve at localhost:4000"
 task :default do
   jekyll("--server --auto")
 end
 
-desc "Serve on Localhost but don't autogenerate"
+desc "Serve at localhost:4000 sans autogeneration"
 task :hack do
   jekyll("--server")
 end
  
-desc "Deploy to Dev"
+desc "Deploy to dev"
 task :deploy => :"deploy:dev"
  
 namespace :deploy do
-  desc "Deploy to Dev"
+  desc "Deploy to dev"
   task :dev => :build do
     rsync "/Library/WebServer/www/AndrewHeiss/jekyll/"
   end
   
-  desc "Deploy to Live"
+  desc "Deploy to live"
   task :live => :build do
     rsync "appden.com"
   end
   
-  desc "Deploy to Dev and Live"
+  desc "Deploy to dev and live"
   task :all => [:dev, :live]
   
   def rsync(location)
