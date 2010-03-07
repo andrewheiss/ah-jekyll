@@ -10,7 +10,7 @@ type: web
 details:
 - Custom PHP/MySQL + WordPress
 - PayPal integration
-- E-mail management
+- E-mail campaign management
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This site was commissioned for a series of summer folk music camps held in Idaho and Utah by a new startup called [Blue Sky Music Camps](http://www.blueskymusiccamps.com/ "Blue Sky Music Camps"), founded by members of the Aaron Ashton Band and Ryan Shupe and the Rubber Band, local Utah County music groups. I was given the basic design and was responsible for the rest: HTML/CSS coding, backend scripting for camp registration and payment, and managing a marketing e-mail subscription list.
