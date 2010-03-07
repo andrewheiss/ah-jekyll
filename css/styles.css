@@ -42,6 +42,7 @@ Colors
 
 @font-face {
 	font-family: 'Museo Slab';
+	src: url('/css/fonts/MuseoSlab-500.eot');
 	src: local('Museo Slab 500'), url('/css/fonts/Museo_Slab_500.otf') format('opentype');
 }
 
@@ -525,10 +526,6 @@ textarea {
 	background-color: lightgrey;
 }
 
-#portfolio-entry h2 {
-	margin: 0 10px;
-}
-
 .project-meta {
 	width: 200px;
 	padding: 10px;
@@ -546,6 +543,11 @@ textarea {
 
 .project-meta ul {
 	font: normal 1em/1.5em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.project-meta li p {
+	font-size: 1em;
+	padding-bottom: 0;
 }
 
 .port-breadcrumb {
