@@ -32,7 +32,7 @@ namespace :deploy do
   
   desc "Deploy to live"
   task :live => :build do
-    rsync "appden.com"
+    rsync "appden.com" # Fix this. This is the wrong live server.
   end
   
   desc "Deploy to dev and live"
