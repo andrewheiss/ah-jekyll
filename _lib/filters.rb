@@ -34,6 +34,11 @@ module Jekyll
       open_tags.each {|t| text += "</#{t}>" }
       text
     end
+    
+    def marukify(input)
+      text = Maruku.new(input)
+      text.to_html
+    end
 
   end
 end
