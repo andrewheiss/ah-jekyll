@@ -7,6 +7,9 @@ thumb: /images/tm-thumb.png
 full: /images/tm-full.png
 link: http://www.talkmorocco.net/
 type: web
+details:
+- WordPress blog + CMS
+- Localized and internationalized
 ---
 
 Talk Morocco is a site that promotes international discussion on political, economic, religious, and moral issues facing Morocco, and features a monthly topical forum with articles by various contributors in several languages. I was given the basic site design and built it [in-browser](http://24ways.org/2009/make-your-mockup-in-markup) as a WordPress template. While the site appears to be a basic blog, it took some crazy hacking to get the articles to be arranged by forum, rather than as one big loop of posts. 
