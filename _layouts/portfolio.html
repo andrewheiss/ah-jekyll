@@ -14,9 +14,9 @@ layout: base
 	<div class="row">
 		<div class="column grid_6">
 			{% if page.link %}
-			<a href="{{ page.link }}" title="{{ page.title }}"><img src="{{ page.full }}" alt="{{ page.title }}" /></a>
+			<a href="{{ page.link }}" title="{{ page.title }}"><img src="{{ page.full }}" alt="{{ page.title }}" class="captify" /></a>
 			{% else %}
-			<img src="{{ page.full }}" alt="{{ page.title }}" />
+			<img src="{{ page.full }}" alt="{{ page.title }}" class="captify" />
 			{% endif %}
 		</div>
 		<div class="project-meta column grid_3">
@@ -30,7 +30,7 @@ layout: base
 			<h4>Quick details</h4>
 			<ul>
 				{% for detail in page.details %}
-				<li>{{ detail }}</li>
+				<li>{{ detail | marukify }}</li>
 				{% endfor %}
 			</ul>
 			{% endif %}
