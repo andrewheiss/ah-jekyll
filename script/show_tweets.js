@@ -1,6 +1,6 @@
 getTwitters('twitter', { 
   id: 'andrewheiss', 
-  count: 2, 
+  count: 1, 
   enableLinks: true, 
   ignoreReplies: true, 
   clearContents: true,
