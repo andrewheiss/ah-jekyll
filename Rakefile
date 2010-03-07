@@ -39,6 +39,6 @@ namespace :deploy do
   task :all => [:dev, :live]
   
   def rsync(location)
-    sh "rsync -rtvz --delete _site/ #{location}"
+    sh "rsync -rtvz --exclude='.DS_Store' --delete _site/ #{location}"
   end
 end
