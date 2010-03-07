@@ -32,13 +32,13 @@ namespace :deploy do
   
   desc "Deploy to live"
   task :live => :build do
-    rsync "appden.com" # Fix this. This is the wrong live server.
+    rsync "nfsn:/home/public/jekyll/"
   end
   
   desc "Deploy to dev and live"
   task :all => [:dev, :live]
   
   def rsync(location)
-    sh "rsync -rtz --delete _site/ #{location}"
+    sh "rsync -rtvz --delete _site/ #{location}"
   end
 end
