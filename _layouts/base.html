@@ -34,17 +34,16 @@
 		<link rel="stylesheet" href="/css/disqus-default.css" type="text/css" media="screen" />
 		<script src="/script/disqus.min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
-			var disqus_iframe_css = "http://www.andrewheiss.com/disqus-iframe.css";
-			// var disqus_iframe_css = "http://www.andrewheiss.com/css/disqus-iframe.css";
+			var disqus_iframe_css = "http://www.andrewheiss.com/css/disqus-iframe.css";
 		
 			$(document).ready(function() {
 				$('#disqus_thread').disqus({
 					domain: 'andrewheisscom',
 					url: 'http://www.andrewheiss.com{{ page.url }}',
-					developer: 1 // True for testing.
+					developer: 0 // True for testing.
 				});
 	
-				jQuery.disqusLinks('andrewheisscom');
+				$.disqusLinks('andrewheisscom');
 			});
 	    </script>
 		{% endif %}
