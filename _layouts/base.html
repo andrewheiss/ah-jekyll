@@ -47,6 +47,14 @@
 			});
 	    </script>
 		{% endif %}
+		{% if page.title == 'Archive' or page.title == 'Tags' %}
+			<script src="/script/disqus.min.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$.disqusLinks('andrewheisscom');
+				});
+		    </script>
+		{% endif %}
 	</head>
 	<body>
 		{% include google_analytics.html %}
