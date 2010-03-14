@@ -9,9 +9,9 @@
 {% if page.tags != empty %}
 <p>Tagged as:
 	{% for tag in page.tags | sort %}
-	<a href="/tag#{{tag | downcase | fix_spaces }}" class="tag">{{tag | downcase}}</a>{% unless forloop.last %}, {% endunless %}
+	<a href="/tag/#{{tag | downcase | fix_spaces }}" class="tag">{{tag | downcase}}</a>{% unless forloop.last %}, {% endunless %}
 	{% endfor %}
 </p>
 {% endif %}
 
-<p><a href="{{ page.url }}#disqus_thread">comments</a></p>
+<p><a href="http://www.andrewheiss.com{{ page.url }}#disqus_thread">comments</a></p>
