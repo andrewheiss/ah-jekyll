@@ -493,6 +493,12 @@ textarea {
 	display: inline;
 }
 
+.comment-archive {
+	font-family: Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: .6em;
+	padding-left: 1em;
+}
+
 /* @end */
 
 /* @group Footnotes */
