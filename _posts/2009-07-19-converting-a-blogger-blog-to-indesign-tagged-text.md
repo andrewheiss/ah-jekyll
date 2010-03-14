@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Converting a Blogger Blog to InDesign Tagged Text with Perl
+title: Import a Blogger Blog to InDesign with Perl
 excerpt: This Perl script lets you take a backed-up Blogger XML file and convert it to an InDesign Tagged Text file for book layout.
 category: blog
 tags:
