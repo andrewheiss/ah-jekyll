@@ -37,6 +37,7 @@ Colors
 
 @font-face {
 	font-family: 'Museo Sans';
+	src: url('/css/fonts/MuseoSans-500.eot');
 	src: local('Museo Sans 500'), url('/css/fonts/MuseoSans_500.otf') format('opentype');
 }
 
