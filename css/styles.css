@@ -326,7 +326,7 @@ textarea {
 	height: 180px;
 	background: url(images/square.jpg) repeat 0 30px;
 	text-align: right;
-	text-rendering: optimizeLegibility;
+	/*text-rendering: optimizeLegibility;*/
 	position: relative;
 	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
 	overflow: hidden;
@@ -617,7 +617,7 @@ br.c { clear: both; }
 
 #footer {
 	font: normal .8em/1.4em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	text-rendering: optimizeLegibility;
+	/*text-rendering: optimizeLegibility;*/
 	background: transparent url(images/black-30.png);
 	background: rgba(0,0,0,0.3) none;
 	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
