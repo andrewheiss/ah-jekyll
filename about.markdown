@@ -52,9 +52,9 @@ I started an open source project, [pdftk-php][pdftk-php], as an outgrowth of [a 
 Images 
 {% endcomment %}
 
-[andrew]: http://www.andrewheiss.com/wp/wp-content/uploads/andrew-heiss.jpg "Andrew Heiss"
-[nancy]: http://www.andrewheiss.com/wp/wp-content/uploads/nancy.jpg "Nancy Heiss"
-[rachel]: http://www.andrewheiss.com/wp/wp-content/uploads/rachel.jpg "Rachel Heiss"
+[andrew]: http://www.andrewheiss.com/images/andrew-heiss.jpg "Andrew Heiss"
+[nancy]: http://www.andrewheiss.com/images/nancy.jpg "Nancy Heiss"
+[rachel]: http://www.andrewheiss.com/images/rachel.jpg "Rachel Heiss"
 
 {% comment %} 
 Links 

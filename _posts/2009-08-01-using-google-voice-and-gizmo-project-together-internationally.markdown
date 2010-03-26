@@ -39,7 +39,7 @@ For the past three years we've been using Gizmo as our full-time phone. We bough
 
 Our system even works (mostly) in Egypt. I have two phones on my desk: the $10 Target phone plugged into the ATA (which is plugged into the router) and a 20 EGP neon pink phone (plugged into our Egyptian phone line). Family, friends, and unsuspecting telemarketers can reach us at our Utah number and pay only what it costs them to call an 801 number. 
 
-![Current phone set up](http://www.andrewheiss.com/wp/wp-content/uploads/2009/08/current_phone_set_up.jpg)  
+![Current phone set up](http://www.andrewheiss.com/images/2009/08/current_phone_set_up.jpg)  
 *Our current phone set up*
 
 The only problem with the system our system in Egypt is a bizarre limitation with Egyptian (or at least Link.net's) internet infrastructure. We don't have any bandwidth issues when someone calls us, but when we call out, the connection drops within the first ten seconds of the call 90% of the time. To get around this, we used some SkypeOut credits--we'd call someone in the States with Skype (using my computer), tell them to call us on our Utah number, hang up, and wait for their call. 

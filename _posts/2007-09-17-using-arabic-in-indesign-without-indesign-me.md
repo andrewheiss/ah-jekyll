@@ -10,7 +10,7 @@ tags:
 
 About a year ago I discovered to my dismay that using Arabic in InDesign was entirely impossible. <!--more--> I wanted to make a type of dictionary for my Arabic 101 students, using an Excel spreadsheet full of Arabic words. When I placed any Arabic text, though, this happened:
 
-![Messed up Arabic text](http://www.andrewheiss.com/wp/wp-content/uploads/arabic-indesign/messed-up-text.png "http://www.andrewheiss.com/wp/wp-content/uploads/arabic-indesign/messed-up-text.png")
+![Messed up Arabic text](http://www.andrewheiss.com/images/uploads/arabic-indesign/messed-up-text.png "http://www.andrewheiss.com/images/arabic-indesign/messed-up-text.png")
 
 While Microsoft and Apple have great right-to-left (RTL) language support built in, Adobe doesn't. InDesign and Illustrator *cannot* handle RTL text. Adobe has, however, outsourced their code to [WinSoft](http://www.winsoft.eu/), who develops the Creative Suite ME (Middle Eastern edition), which *does* have excellent RTL support, especially through the use of their [Tasmeem](http://www.winsoft.eu/products_solutions/WinSoft-Tasmeem.php) typesetting framework, recently highlighted in [Saudi Aramco Magazine](http://www.saudiaramcoworld.com/issue/200704/keyboard.calligraphy.htm). However, I don't want to buy the ME version for minimal Arabic use.
 
@@ -28,7 +28,7 @@ Unfortunately, Arabic is more complex. There is a clunky solution—hunt and pec
 
 The glyphs panel is a great and often underused panel in InDesign. It's generally used for finding and inserting dingbat characters or other non-standard glyphs in a font. You can even save your most commonly used glyphs for easy access:
 
-![Custom glyphs](http://www.andrewheiss.com/wp/wp-content/uploads/arabic-indesign/custom-glyphs.png "Custom glyphs")
+![Custom glyphs](http://www.andrewheiss.com/images/arabic-indesign/custom-glyphs.png "Custom glyphs")
 
 You can even type with the glyphs panel, which is how we get Arabic working in InDesign. This method also works for Illustrator and any other Adobe program with a glyphs panel.
 
@@ -36,11 +36,11 @@ To activate the panel, go to Window &gt; Type &amp; Tables &gt; Glyphs. Choose a
 
 You should see normal Roman characters in the panel. Scroll down until you get the Arabic glyphs. Double click on a letter to insert it at your cursor.
 
-![Arabic glyph panel](http://www.andrewheiss.com/wp/wp-content/uploads/arabic-indesign/arabic-glyphs.png "Arabic glyph panel")
+![Arabic glyph panel](http://www.andrewheiss.com/images/arabic-indesign/arabic-glyphs.png "Arabic glyph panel")
 
 Here's where the magic starts. Many of the glyphs will have a black triangle in the bottom right corner of the grid box. This means that there are alternate glyphs for that character—in this case, different positions for the letter. Click and hold one of the boxes with alternate glyphs and you'll see all the different possibilities for that letter.
 
-![All glyph positions](http://www.andrewheiss.com/wp/wp-content/uploads/arabic-indesign/all-positions.png "All glyph positions")
+![All glyph positions](http://www.andrewheiss.com/images/arabic-indesign/all-positions.png "All glyph positions")
 
 To type a full Arabic word, insert the appropriately positioned letters in backwards order using the glyphs panel. Here's a live example of this in action (sorry for the horrible quality):
 
@@ -48,7 +48,7 @@ To type a full Arabic word, insert the appropriately positioned letters in backw
 
 You can insert alternate glyphs and ligatures too:
 
-![Alternate glyphs and ligatures](http://www.andrewheiss.com/wp/wp-content/uploads/arabic-indesign/more-alternate-glyphs.png "Alternate glyphs and ligatures")
+![Alternate glyphs and ligatures](http://www.andrewheiss.com/images/arabic-indesign/more-alternate-glyphs.png "Alternate glyphs and ligatures")
 
 If you use a decorative Arabic font, like Microsoft's Diwani family (found in the [arafonts.exe](http://www.microsoft.com/downloads/details.aspx?FamilyID=A83C0E03-8913-47A3-ACB7-8AC357627620&amp;displaylang=AR) font package), you can use the decorative swashes as well. You can even change the font after inserting the letters to another Arabic font and maintain the letters.
 

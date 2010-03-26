@@ -9,7 +9,7 @@ Two years ago I decided that it would be a good idea to start a personal website
 
 My first website was ugly. I had just started my foray into web design and barely knew anything—my CSS was rudimentary at best and I used scattered PHP includes to make a pseudo dynamic site. It was a mess.
 
-![Screenshot of old site](http://www.andrewheiss.com/wp/wp-content/uploads/2009/03/screenshot-of-old-site.png "Screenshot of old site")
+![Screenshot of old site](http://www.andrewheiss.com/images/2009/03/screenshot-of-old-site.png "Screenshot of old site")
 
 Ugh. It was pretty embarrassing. I should have just killed it, but I couldn't because of [one tutorial](http://www.andrewheiss.com/blog/2007/10/06/populating-a-livecycle-pdf-with-php-and-mysql/) I posted. That one post drives more than 80% of the traffic to this site, and I get almost daily e-mails with questions about it. My old site couldn't handle the community that built up around it.
 

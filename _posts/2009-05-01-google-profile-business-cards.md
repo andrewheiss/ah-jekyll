@@ -12,7 +12,7 @@ tags:
 
 Look what I just ordered, for free:
 
-![Google Profile Business Card](http://www.andrewheiss.com/wp/wp-content/uploads/2009/05/google-profile-business-card.png "Google Profile Business Card")
+![Google Profile Business Card](http://www.andrewheiss.com/images/2009/05/google-profile-business-card.png "Google Profile Business Card")
 
 Awesome :)
 

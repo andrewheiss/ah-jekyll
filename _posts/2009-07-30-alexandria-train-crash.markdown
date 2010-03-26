@@ -15,18 +15,18 @@ After almost a year of being in Egypt, we finally decided to go up to Alexandria
 
 Immediately after we got off the train we saw the reason for the delay. A train had rammed into the station, apparently at full speed, derailing the first three cars—the engine, the generator, and the first actual cabin. Part of the station itself was damaged, as was, ironically enough, a parked fire truck.
 
-<a href="http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/general_train_wreck_chaos.jpg"><img src="http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/general_train_wreck_chaos.jpg" alt="General train wreck chaos" width="600px" /></a>  
+<a href="http://www.andrewheiss.com/images/2009/07/general_train_wreck_chaos.jpg"><img src="http://www.andrewheiss.com/images/2009/07/general_train_wreck_chaos.jpg" alt="General train wreck chaos" width="600px" /></a>  
 *Click to enlarge*
 
 The train crashed at around 8 AM and was empty. By 12:30 (when we got there), Egyptian Railway repair crews were lifting the damaged cabin off the tracks.
 
-<a href="http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/detail_of_fire_truck_train_station_damage.jpg"><img src="http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/detail_of_fire_truck_train_station_damage.jpg" alt="Detail of fire truck/train station damage" width="600px" /></a>
+<a href="http://www.andrewheiss.com/images/2009/07/detail_of_fire_truck_train_station_damage.jpg"><img src="http://www.andrewheiss.com/images/2009/07/detail_of_fire_truck_train_station_damage.jpg" alt="Detail of fire truck/train station damage" width="600px" /></a>
 
-<a href="http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/silhouette_of_repairs.jpg"><img src="http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/silhouette_of_repairs.jpg" alt="Silhouette of repairs" width="600px" /></a>
+<a href="http://www.andrewheiss.com/images/2009/07/silhouette_of_repairs.jpg"><img src="http://www.andrewheiss.com/images/2009/07/silhouette_of_repairs.jpg" alt="Silhouette of repairs" width="600px" /></a>
 
 By 6:00 PM, when we arrived back at the station to return to Cairo, the repairmen were working on lifting the engine and had apparently already extricated the generator car.
 
-<a href="http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/detail_of_damaged_engine.jpg"><img src="http://www.andrewheiss.com/wp/wp-content/uploads/2009/07/detail_of_damaged_engine.jpg" alt="Detail of damaged engine" width="600px" /></a>
+<a href="http://www.andrewheiss.com/images/2009/07/detail_of_damaged_engine.jpg"><img src="http://www.andrewheiss.com/images/2009/07/detail_of_damaged_engine.jpg" alt="Detail of damaged engine" width="600px" /></a>
 
 Since two platforms were out of commission, trains were shuffled around all day, causing major delays. Our train ride back to Cairo took over four hours instead of the usual two. 
 
