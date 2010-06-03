@@ -10,9 +10,4 @@ title: Portfolio
 	</div>
 {% cycle 'close rows': nil, nil, '</div>' %}
 {% endfor %}
-
-{% comment %} Ideally this could all just be `if site.categories.portfolio.size % 3 == 0`, but Liquid won't work with a modulus, so this workaround the epitome of cruftiness. {% endcomment %}
-{% assign total = site.categories.portfolio.size %}
-{% unless total == 3 or total == 6 or total == 9 or total == 12 or total == 15 %}
-</div>
-{% endunless %}
+{% cycle 'close final row': '</div>', '</div>', nil %}
