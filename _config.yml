@@ -5,4 +5,4 @@ pygments_cache: ./_cache
 markdown:       maruku
 permalink:      pretty
 extensions:     true
-exclude:        ['Rakefile', 'README.markdown', 'TODO.markdown']
+exclude:        ['Rakefile', 'README.markdown', 'TODO.markdown', '_drafts']
