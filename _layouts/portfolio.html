@@ -30,7 +30,7 @@ layout: base
 			<h4>Quick details</h4>
 			<ul>
 				{% for detail in page.details %}
-				<li>{{ detail | marukify }}</li>
+				<li>{{ detail | markdownify }}</li>
 				{% endfor %}
 			</ul>
 			{% endif %}

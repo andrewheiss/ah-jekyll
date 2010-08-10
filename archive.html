@@ -6,11 +6,12 @@ excerpt: A listing of all the posts at AndrewHeiss.com
 
 {% assign first = true %}
 {% for post in site.categories.blog %}
-  {% if post|last_of_year? %}
+{% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if next_year == nil or post_year != next_year %}
 	{% unless first == true %}
 	</ul>
 	{% endunless %}
-    <h3>{{ post.date | date: '%Y' }}</h3>
+    <h3>{{ post_year }}</h3>
 	<ul>
   {% endif %}
 	{% assign first = false %}
@@ -20,5 +21,5 @@ excerpt: A listing of all the posts at AndrewHeiss.com
 				<a href="{{ post.url }}">{{ post.title }}</a> <span class="comment-archive">(<a href="http://www.andrewheiss.com{{ post.url }}#disqus_thread">comments</a>)</span>
 			</span>
 		</li>
-{% endfor %}
+{% assign next_year = post_year %}{% endfor %}
 	</ul>

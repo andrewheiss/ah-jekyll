@@ -8,7 +8,7 @@ title: About me
 ![Andrew Heiss][andrew]{: .captify}
 {: .right}
 
-I'm a {{ '1984-08-19' | years_from_date }} year old student, designer, and web developer from Orem, Utah. I live in Egypt where I'm working on my MA in Middle East Studies at the American University in Cairo. I've been married for {{ '2005-12-16' | years_from_date }} years and have one daughter. I use a Mac, take lots of pictures, and love to travel. This website is about my research, design, and development projects, as well as a central hub for my online presence. Feel free to contact me with any questions or comments! Enjoy!
+I'm a {% years_since 1984-08-19 %} year old student, designer, and web developer from Orem, Utah. I live in Egypt where I'm working on my MA in Middle East Studies at the American University in Cairo. I've been married for {% years_since 2005-12-16 %} years and have one daughter. I use a Mac, take lots of pictures, and love to travel. This website is about my research, design, and development projects, as well as a central hub for my online presence. Feel free to contact me with any questions or comments! Enjoy!
 
 ### Personal ###
 

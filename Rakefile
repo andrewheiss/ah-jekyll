@@ -27,7 +27,7 @@ task :deploy => :"deploy:dev"
 namespace :deploy do
   desc "Deploy to dev"
   task :dev => :build do
-    rsync "/Library/WebServer/www/AndrewHeiss/jekyll/"
+    rsync "~/Sites/AndrewHeiss/jekyll/"
   end
   
   desc "Deploy to live"

@@ -9,7 +9,7 @@
 {% if page.tags != empty %}
 <p>Tagged as:
 	{% for tag in page.tags | sort %}
-	<a href="/tag/#{{tag | downcase | fix_spaces }}" class="tag">{{tag | downcase}}</a>{% unless forloop.last %}, {% endunless %}
+	<a href="/tag/#{{tag | downcase | slugify }}" class="tag">{{tag | downcase}}</a>{% unless forloop.last %}, {% endunless %}
 	{% endfor %}
 </p>
 {% endif %}

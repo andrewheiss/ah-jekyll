@@ -8,7 +8,7 @@ tags:
 - jordan
 - politics
 - civic engagement
-- Queen Rania
+- queen rania
 ---
 
 This morning AUC's [John D. Gerhart Center for Civic Engagement][gerhart] hosted a lecture by [Queen Rania al-Abdullah][rania-hp] of Jordan. Queen Rania is famous for being intensely involved in the public sphere and, according to the venerable [Wikipedia][rania-wp], is considered one of the [world's most powerful women][forbes]. She's involved with a ton of foundations and NGOs that cover a wide range of goals, from advocating for improvement in girls' education and employment, promoting dialogue between the US and the Arab world, and calling for what became the buzzword of today's lecture: civic engagement. She uses technology to promote her agenda of social improvement and is active on [YouTube][rania-yt], [Twitter][rania-twitter], and [Facebook][rania-fb]. Basically a beautiful, famous, powerful world leader.
