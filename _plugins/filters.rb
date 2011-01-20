@@ -18,7 +18,7 @@ module TextFilter
   
   def descriptionify(excerpt)
     if excerpt.nil?
-      description = 'Andrew Heiss is a student and web designer and developer from Utah who lives in Egypt, working on his MA in Middle East Studies at AUC.'
+      description = 'Andrew Heiss is a student and web designer and developer from Utah who is working on his MPA in international nonprofit management at BYU.'
     else
       description = excerpt
     end
