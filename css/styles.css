@@ -146,9 +146,14 @@ h6 {
 }
 
 p, ol, ul, dl {
-	font-size: 1.2em;
+	/*ol, ul, dl*/
+    font-size: 1.2em;
 	line-height: 1.5em;
 	padding-bottom: .8em;
+}
+
+li > p {
+	font-size: 100%;
 }
 
 table {
@@ -174,7 +179,7 @@ td {
 }
 
 ul, ol {
-	padding-left: 1em;
+	padding-left: 1.1em;
 }
 
 dt {
