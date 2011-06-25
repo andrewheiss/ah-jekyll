@@ -454,7 +454,17 @@ textarea {
 
 .archive-link {
 	font: bold 1.2em/1.5em "Museo Slab", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
 
+.family {
+	padding: 10px 0;
+	margin-bottom: .8em;
+	float: right;
+	width: 100%;
+}
+
+.family img {
+	margin: 0 8px 0 9px;
 }
 
 /* @end */
