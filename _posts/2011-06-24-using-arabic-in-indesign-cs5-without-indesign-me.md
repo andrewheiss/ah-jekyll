@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Arabic in InDesign CS5 <em>without</em> InDesign ME
+title: Using Arabic in InDesign CS5 without InDesign ME
 excerpt: Use InDesign CS5&rsquo;s hidden World Ready Composer to typeset text in Arabic and other complex scripts.
 category: blog
 tags:
@@ -21,7 +21,7 @@ Unless you do a cool trick :)
 You can programmatically create paragraph styles that use the world ready composer, allowing you to typeset Arabic, Hebrew, Thai, Devangari-like languages, and a ton of other more complex scripts. Here's how you can enable native Arabic typography inside CS5 (courtesy of [Thomas Phinney](http://www.thomasphinney.com/2009/01/adobe-world-ready-composer/)):
 
 1. [Download these scripts](http://www.thomasphinney.com/wp-content/uploads/2009/01/r2l_scripts_for_id_cs4.zip) by Thomas Phinney and Peter Kahrel and [install them](http://www.danrodney.com/scripts/directions-installingscripts.html) in your script folder.
-2. Run the "r2l Paragraph Style Arabic" script from the Scripts panel. A new paragraph style named "RTL Arabic" should appear in your styles panel.
+2. Run the "r2l Paragraph Style Arabic" script from the Scripts panel. A new paragraph style named "RTL Arabic" should appear in your Paragraph Styles panel.
 3. Check the style settings and verify that the "Adobe World-Ready Paragraph Composer" is being used for the style.  
 ![World-Ready Composer](http://files.andrewheiss.com/images/world-ready.png "World-Ready Composer")
 4. Start using Arabic text!
