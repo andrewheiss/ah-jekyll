@@ -10,7 +10,7 @@ tags:
 
 About a year ago I discovered to my dismay that using Arabic in InDesign was entirely impossible. <!--more--> I wanted to make a type of dictionary for my Arabic 101 students, using an Excel spreadsheet full of Arabic words. When I placed any Arabic text, though, this happened:
 
-![Messed up Arabic text](http://www.andrewheiss.com/images/uploads/arabic-indesign/messed-up-text.png "http://www.andrewheiss.com/images/arabic-indesign/messed-up-text.png")
+![Messed up Arabic text](http://www.andrewheiss.com/images/arabic-indesign/messed-up-text.png "http://www.andrewheiss.com/images/arabic-indesign/messed-up-text.png")
 
 While Microsoft and Apple have great right-to-left (RTL) language support built in, Adobe doesn't. InDesign and Illustrator *cannot* handle RTL text. Adobe has, however, outsourced their code to [WinSoft](http://www.winsoft.eu/), who develops the Creative Suite ME (Middle Eastern edition), which *does* have excellent RTL support, especially through the use of their [Tasmeem](http://www.winsoft.eu/products_solutions/WinSoft-Tasmeem.php) typesetting framework, recently highlighted in [Saudi Aramco Magazine](http://www.saudiaramcoworld.com/issue/200704/keyboard.calligraphy.htm). However, I don't want to buy the ME version for minimal Arabic use.
 
