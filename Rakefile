@@ -1,7 +1,7 @@
 # Adapted from Scott Kyle's Rakefile
 # http://github.com/appden/appden.github.com/blob/master/Rakefile
 
-def jekyll(opts = "", path = "~/dev/jekyll/bin/")
+def jekyll(opts = "", path = "/usr/local/bin/")
   sh "rm -Rf _site/*"
   sh path + "jekyll " + opts
 end
