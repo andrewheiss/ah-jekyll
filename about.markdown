@@ -8,7 +8,7 @@ title: About me
 ![Andrew Heiss][andrew]{: .captify}
 {: .right}
 
-I'm a {% years_since 1984-09-19 %} year old student, designer, and web developer from Orem, Utah. I live in Utah where I'm working on my Masters in Public Administration (MPA) at Brigham Young University with an emphasis in international nonprofit management and federal government administration (quite a mouthful there…). I completed an MA in Middle East Studies at the American University in Cairo in 2010. I've been married for {% years_since 2005-12-16 %} years and have two daughters. I use a Mac, take lots of pictures, and love to travel. This website is about my research, design, and development projects, as well as a central hub for my online presence. Feel free to contact me with any questions or comments! Enjoy!
+I'm [Andrew](https://plus.google.com/117537162943428901666)! I'm a {% years_since 1984-09-19 %} year old student, designer, and web developer from Orem, Utah. I live in Utah where I'm working on my Masters in Public Administration (MPA) at Brigham Young University with an emphasis in international nonprofit management and federal government administration (quite a mouthful there…). I completed an MA in Middle East Studies at the American University in Cairo in 2010. I've been married for {% years_since 2005-12-16 %} years and have two daughters. I use a Mac, take lots of pictures, and love to travel. This website is about my research, design, and development projects, as well as a central hub for my online presence. Feel free to contact me with any questions or comments! Enjoy!
 
 ### Personal ###
 
