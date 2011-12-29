@@ -20,7 +20,7 @@ The one downside to this workflow is that it's long and convoluted and lacks the
 
 Here's how to do it:
 
-1. Download the ["Post to Dropox"](http://wiki.dropbox.com/DropboxAddons/Dropbox%20Service) OS X service. 
+1. Download the ["Post to Dropox"](http://dropboxwiki.com/Dropbox_Service) OS X service. 
 
 2. Unzip and open the Copy to Dropbox service in Automator.  
   
