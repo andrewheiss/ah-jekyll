@@ -1,4 +1,5 @@
-/* @override http://localhost:4000/css/styles.css */
+/* @override http://localhost:4000/css/styles.css
+	http://andrew/css/styles.css */
 
 /*
 
@@ -690,6 +691,11 @@ br.c { clear: both; }
 
 .dsq-comment-text {
 	font: .9em/1.4em Calluna, Cambria, Georgia, "Times New Roman", serif;
+}
+
+.dsq-comment-text p {
+	font: 1em/1.4em Calluna, Cambria, Georgia, "Times New Roman", serif;
+	padding-bottom: 0;
 }
 
 .dsq-comment-text pre {
