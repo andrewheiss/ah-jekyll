@@ -676,3 +676,42 @@ br.c { clear: both; }
 }
 
 /* @end */
+
+/* @group Disqus comments */
+
+.dsq-like-activity {
+	font: normal .6em/1em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #888888;
+}
+
+.dsq-commenter-name {
+	font: normal 1em/1em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.dsq-comment-text {
+	font: .9em/1.4em Calluna, Cambria, Georgia, "Times New Roman", serif;
+}
+
+.dsq-comment-text pre {
+	font-size: .8em;
+	line-height: 1.1em;
+	padding: 0;
+}
+
+.dsq-comment-text code {
+	font-size: .9em;
+}
+
+.dsq-comment-footer {
+	font: normal .6em/1.4em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.dsq-footer {
+	font-size: .6em;
+}
+
+.dsq-brlink {
+	display: none;
+}
+
+/* @end */
