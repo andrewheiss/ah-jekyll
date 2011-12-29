@@ -1,7 +1,6 @@
 destination:    ./_site
 lsi:            false
 pygments:       true
-pygments_cache: ./_cache
 markdown:       maruku
 permalink:      pretty
 extensions:     true
