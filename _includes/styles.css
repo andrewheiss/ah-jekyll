@@ -1,5 +1,6 @@
 /* @override http://localhost:4000/css/styles.css
-	http://andrew/css/styles.css */
+	http://andrew/css/styles.css
+	http://localhost:4000/css/all.css */
 
 /*
 
@@ -10,45 +11,19 @@ Font families
 -------------
 
 *Serif*  
-Calluna, Cambria, Georgia, "Times New Roman", serif
+"Noto Serif", "Cambria", "Georgia", "Times New Roman", serif
 
 *Sans Serif*  
-Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
-
-*Slab*  
-"Museo Slab", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
+"Source Sans", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif
 
 *Monospace*  
-Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New
+"Consolas", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New"
 
 Colors
 ------
 
 
 */
-
-/* @group Fonts */
-
-@font-face {
-	font-family: 'Calluna';
-	src: url('/css/fonts/Calluna-Regular.eot');
-	src: local('Calluna Regular'), local('Calluna-Regular'), url('/css/fonts/Calluna-Regular.otf') format('opentype');
-}
-/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-
-@font-face {
-	font-family: 'Museo Sans';
-	src: url('/css/fonts/MuseoSans-500.eot');
-	src: local('Museo Sans 500'), url('/css/fonts/MuseoSans_500.otf') format('opentype');
-}
-
-@font-face {
-	font-family: 'Museo Slab';
-	src: url('/css/fonts/MuseoSlab-500.eot');
-	src: local('Museo Slab 500'), url('/css/fonts/Museo_Slab_500.otf') format('opentype');
-}
-
-/* @end */
 
 /* @group Resets */
 
@@ -103,7 +78,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 body {
 	background: #ffffff none;
 	text-align: center;
-	font: normal 100%/1.4em Calluna, Cambria, Georgia, "Times New Roman", serif;
+	font: normal 100%/1.4em "Noto Serif", "Cambria", "Georgia", "Times New Roman", serif;
 	color: #444;
 }
 
@@ -117,7 +92,7 @@ a:hover, a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font: bold 100%/1.5em "Museo Slab", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: bold 100%/1.5em "Open Sans", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 }
 
 h1 {
@@ -127,7 +102,7 @@ h1 {
 h2 {
 	font-size: 1.8em;
 	line-height: 1.2em;
-	padding-bottom: .5em;
+	padding-bottom: .3em;
 }
 
 h3 {
@@ -175,7 +150,7 @@ tr {
 
 th {
 	font-weight: bold;
-	font-family: "Museo Sans", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 	padding: .2em;
 	border-bottom: 2px solid #999999;
 }
@@ -185,12 +160,12 @@ td {
 }
 
 ul, ol {
-	padding-left: 1.1em;
+	margin-left: 2em;
 }
 
 dt {
 	font-weight: bold;
-	font-family: "Museo Sans", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 }
 
 em {
@@ -223,20 +198,20 @@ blockquote {
 	margin: 0 3em 1em;
 	padding: .8em .8em 0; /* Make the same as the padding under the universal `p` to compensate for the space after the paragraph */
 	background-color: #f8f8f8;
-	font-family: "Museo Slab", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: "Open Sans", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 	font-size: .9em;
 	border: 1px solid silver;
 }
 
 code {
-	font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
+	font-family: "Consolas", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New";
 	font-size: .8em;
 	background-color: #f8f8f8;
 	padding: .3em;
 }
 
 pre {
-	font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
+	font-family: "Consolas", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New";
 	margin-bottom: .8em; /* The same as `p` */
 	line-height: 1.4em;
 	font-size: 1em;
@@ -261,7 +236,7 @@ pre {
 .confirmation {
 	padding: 8px 8px 8px 28px;
 	margin-bottom: .8em;
-	font-family: Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 	font-size: .9em;
 }
 
@@ -313,12 +288,12 @@ fieldset {
 }
 
 legend {
-	font: 1.2em/1.4em "Museo Sans", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: 1.2em/1.4em "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 	color: #999999;
 }
 
 .input, .password, textarea, select {
-	font: .9em/1.4em "Museo Sans", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: .9em/1.4em "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 	color: #666666;
 }
 
@@ -345,14 +320,14 @@ textarea {
 
 #header h1 {
 	padding-top: .5em;
-	font-size: 3.2em;
+	font-size: 3.5em;
 	line-height: 1.2em;
 }
 
 #header h2 {
 	color: #fefefe;
-	font-family: Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	font-size: 1.3em;
+	font-family: "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
+	font-size: 1.4em;
 	font-weight: normal;
 }
 
@@ -382,12 +357,16 @@ textarea {
 #navbar {
 	list-style: none;
 	text-align: left;
-	font-family: Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	font-size: 1.2em;
+	font-family: "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
+	font-size: 1.3em;
 	padding: .3em 0 0;
 	line-height: 1.3em;
 	padding-left: 0;
 	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
+}
+
+#navbar-wrapper ul {
+	margin: 0;
 }
 
 #navbar li {
@@ -414,7 +393,7 @@ textarea {
 #loading {
 	padding-top: 6em;
 	text-align: center;
-	font: normal .6em/1em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: normal .6em/1em "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -432,7 +411,7 @@ textarea {
 }
 
 .twitter_timestamp {
-	font: normal .6em/1em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: normal .8em/1.5em "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 	display: block;
 }
 
@@ -454,12 +433,12 @@ textarea {
 }
 
 .post-meta p {
-	font: normal .9em/1.4em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: normal 1em/1.4em "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 	color: #999999;
 }
 
 .archive-link {
-	font: bold 1.2em/1.5em "Museo Slab", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: bold 1.2em/1.5em "Open Sans", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 }
 
 .family {
@@ -505,18 +484,18 @@ textarea {
 }
 
 #tag-list {
-	font: normal .9em/1.7em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: normal 1em/1.5em "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 	list-style: none;
 	padding: 0;
 }
 
 #tag-list li {
-	padding-right: .7em;
+	padding-right: 1.5em;
 	display: inline;
 }
 
 .comment-archive {
-	font-family: Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 	font-size: .6em;
 	padding-left: 1em;
 }
@@ -570,7 +549,7 @@ textarea {
 }
 
 .project-meta ul {
-	font: normal 1em/1.5em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: normal 1em/1.5em "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 }
 
 .project-meta li p {
@@ -579,7 +558,7 @@ textarea {
 }
 
 .port-breadcrumb {
-	font: normal .7em/1em Museo Slab, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: normal .7em/1em "Open Sans", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 	text-align: right;
 }
 
@@ -594,7 +573,7 @@ textarea {
 	padding: 20px;
 	font-size: 15px;
 	line-height: 18px;
-	font-family: Museo Slab, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;	
+	font-family: "Open Sans", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;	
 	cursor: default;
 	border-width: 0; /* Needs some set border-width for jQuery in IE, otherwise it throws an error */
 	background: #000;
@@ -637,7 +616,7 @@ br.c { clear: both; }
 }
 
 #footer {
-	font: normal .8em/1.4em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: normal .9em/1.4em "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 	/*text-rendering: optimizeLegibility;*/
 	background: transparent url(images/black-30.png);
 	background: rgba(0,0,0,0.3) none;
@@ -669,7 +648,7 @@ br.c { clear: both; }
 }
 
 #footer h3 {
-	font: 1.5em/1.2em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;;
+	font: 1.5em/1.2em "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;;
 	text-align: right;
 }
 
@@ -686,20 +665,20 @@ br.c { clear: both; }
 /* @group Disqus comments */
 
 .dsq-like-activity {
-	font: normal .6em/1em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: normal .6em/1em "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 	color: #888888;
 }
 
 .dsq-commenter-name {
-	font: normal 1em/1em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: normal 1em/1em "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 }
 
 .dsq-comment-text {
-	font: .9em/1.4em Calluna, Cambria, Georgia, "Times New Roman", serif;
+	font: .9em/1.4em "Noto Serif", "Cambria", "Georgia", "Times New Roman", serif;
 }
 
 .dsq-comment-text p {
-	font: 1em/1.4em Calluna, Cambria, Georgia, "Times New Roman", serif;
+	font: 1em/1.4em "Noto Serif", "Cambria", "Georgia", "Times New Roman", serif;
 	padding-bottom: 0;
 }
 
@@ -714,7 +693,7 @@ br.c { clear: both; }
 }
 
 .dsq-comment-footer {
-	font: normal .6em/1.4em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font: normal .6em/1.4em "Source Sans Pro", "Candara", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
 }
 
 .dsq-footer {
