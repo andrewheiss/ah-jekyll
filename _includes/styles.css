@@ -157,6 +157,11 @@ li > p {
 	font-size: 100%;
 }
 
+ul ul {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
 table {
 	font-size: 1.2em;
 	line-height: 1.5em;
