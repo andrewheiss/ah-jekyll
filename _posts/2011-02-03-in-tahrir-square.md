@@ -4,7 +4,7 @@ title: In Tahrir Square
 excerpt: A poem in honor of the &#35;Jan25 Tahrir protestors
 category: blog
 tags:
-- &#35;jan25
+- jan25
 - egypt
 - nancy
 ---

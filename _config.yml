@@ -4,4 +4,4 @@ pygments:       true
 markdown:       maruku
 permalink:      pretty
 extensions:     true
-exclude:        ['Rakefile', 'README.markdown', 'TODO.markdown', '_drafts']
+exclude:        ['Rakefile', 'README.markdown', 'TODO.markdown', '_drafts', 'projects']

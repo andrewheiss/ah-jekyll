@@ -4,7 +4,7 @@ title: Mona Prince on &#35;jan25 Egyptian Protests
 excerpt: Mona Prince's personal account of the &#35;jan25 Egyptian protests
 category: blog
 tags:
-- &#35;jan25
+- jan25
 - egypt
 ---
 
