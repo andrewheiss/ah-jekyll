@@ -18,7 +18,7 @@ module TextFilter
   
   def descriptionify(excerpt)
     if excerpt.nil?
-      description = 'Andrew Heiss is a student and web designer and developer from Utah who is working on his MPA in international nonprofit management at BYU.'
+      description = 'Andrew Heiss is a PhD student at the Sanford School of Public Policy at Duke University, researching the nonprofit sector in the Middle East.'
     else
       description = excerpt
     end
@@ -26,9 +26,9 @@ module TextFilter
     "#{description}"
   end
   
-  ############################################################
-  # Developing methods. I don't really thinkg I need these…
-  ############################################################
+  ###########################################################
+  # Developing methods. I don't really think I need these…
+  ###########################################################
   
   def print_r(hash, level=0)
     result = "  "*level + "{\n"
