@@ -3,6 +3,8 @@ layout: static
 title: Research
 ---
 
+Download my [curriculum vitae](/research/Andrew%20Heiss%20CV,%20May%202013.pdf).
+
 ### Journal Articles
 
 "The Failed Management of a Dying Regime: Hosni Mubarak, Egypt’s National Democratic Party, and the January 25 Revolution." *Journal of Third World Studies* 28, no. 1 (Spring 2012): 155– 171.
