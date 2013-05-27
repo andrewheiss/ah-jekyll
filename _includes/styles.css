@@ -96,29 +96,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 2.4em;
+	font-size: 2.5em;
 }
 
 h2 {
-	font-size: 1.8em;
+	font-size: 2.1em;
 	line-height: 1.2em;
 	padding-bottom: .3em;
 }
 
 h3 {
-	font-size: 1.4em;
+	font-size: 1.6em;
+	padding-top: .6em;
+	margin-bottom: .2em;
+	border-bottom: 2px solid #a7a0a0;
 }
 
 h4 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 h5 {
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 h6 {
-	font-size: .9em;
+	font-size: 1em;
 }
 
 p, ol, ul, dl {
@@ -543,6 +546,9 @@ textarea {
 
 .project-meta h3 {
 	font-size: 1.5em;
+	border: none;
+	margin: 0;
+	padding: 0;
 }
 
 .project-meta h4 {
@@ -625,6 +631,12 @@ br.c { clear: both; }
 	text-align: right;
 	color: #999999;
 	padding: 1em 0;
+}
+
+#footer h3 {
+	border: none;
+	margin: 0;
+	padding: 0;
 }
 
 #footer a {
