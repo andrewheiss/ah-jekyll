@@ -5,7 +5,7 @@ title: Teaching
 
 ### Future courses
 
-**[Middle East Politics](/teaching/Middle%20East%20Politics%20syllabus.pdf)** (undergraduate)
+**[Middle Eastern Politics](/teaching/Middle%20East%20Politics%20syllabus.pdf)** (undergraduate)
 
 
 ### Graduate courses
