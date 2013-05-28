@@ -12,7 +12,7 @@ Download my [curriculum vitae](/research/Andrew%20Heiss%20CV,%20May%202013.pdf).
 
 ### Working Papers
 
-"Whose Message Prevails? Independent Media Coverage of Anti-Corruption NGOs in Post-Revolutionary Egypt" (with Ken Rogerson, Duke University)
+"Whose Message Prevails? Independent Media Coverage of Anti-Corruption NGOs in Post-Revolutionary Egypt" (with Ken Rogerson, Duke University) ([code](https://github.com/andrewheiss/Media-and-NGOs-data))
 
 "Nonprofit collaboration and the resurrection of market failure: How a resource sharing environment can suppress social objectives" (with Eva Witesman, Brigham Young University)
 
