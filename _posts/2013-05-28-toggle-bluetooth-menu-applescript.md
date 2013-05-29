@@ -13,7 +13,7 @@ I like to keep my menubar as uncluttered as possible, so I keep as many items hi
 
 ![Clean menu bar](http://files.andrewheiss.com/images/toggle_bluetooth/menubar.png)
 
-I also keep the Bluetooth menu turned off. However, when the battery runs low on either my keyboard or mouse, the Bluetooth menu item comes back, and it doesn't turn back off after the batteries get replaced. The only way to turn it off is to go to the Bluetooth panel in System Preferences and disable the menu item manually. It's a tiny chore, but a chore nonetheless. [One that can be automated!]()[^fn1][^fn2]
+I also keep the Bluetooth menu turned off. However, when the battery runs low on either my keyboard or mouse, the Bluetooth menu item comes back, and it doesn't turn back off after the batteries get replaced. The only way to turn it off is to go to the Bluetooth panel in System Preferences and disable the menu item manually. It's a tiny chore, but a chore nonetheless. One that can be automated![^fn1][^fn2]
 
 Save [this](https://gist.github.com/andrewheiss/5667322) to an AppleScript application (or an Automator application) and run to (kludgingly) toggle the Bluetooth menu item.
 
