@@ -718,3 +718,11 @@ br.c { clear: both; }
 }
 
 /* @end */
+
+/* Better styles for embedding GitHub Gists */
+.gist {
+	font-size: .7em;
+	line-height: 18px;
+	margin-bottom: 20px;
+	width: 100%;
+}
