@@ -37,7 +37,7 @@ end tell
 {% endhighlight %}
 
 
-[^fn1]: See [this fantastic graph]() originally posted by [Bruno Oliviera](https://plus.google.com/+BrunoOliveira/posts/MGxauXypb1Y).
+[^fn1]: See [this fantastic graph](http://files.andrewheiss.com/images/toggle_bluetooth/geeks-vs-nongeeks-repetitive-tasks.png) originally posted by [Bruno Oliviera](https://plus.google.com/+BrunoOliveira/posts/MGxauXypb1Y).
 
 [^fn2]: And by spending 15 minutes figuring out the hidden Applescript API for System Preferences to automate a task that takes up 30 seconds every month, [I totally saved time in the long run](http://xkcd.com/1205/).
 
